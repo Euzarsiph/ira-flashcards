@@ -1,0 +1,3002 @@
+[
+    {
+        "id": 1,
+        "category": "Regulations",
+        "question": "You are planning an IFR flight and notice the VOR you intend to use for a check has not been checked in the last 30 days. Can you perform the check yourself? If so, how?",
+        "answer": "Yes, as a pilot, you can perform a VOR check. You can use a VOT (±4°), a designated ground checkpoint (±4°), an airborne checkpoint (±6°), or a dual VOR check (within 4°). You must log the Date, Error, Place, and Signature (DEPS). (14 CFR 91.171)"
+    },
+    {
+        "id": 2,
+        "category": "Regulations",
+        "question": "You are flying IFR and lose two-way radio communications. You are in VFR conditions. What is your immediate action?",
+        "answer": "If the failure occurs in VFR conditions, or if VFR conditions are encountered after the failure, you must continue the flight under VFR and land as soon as practicable. (14 CFR 91.185(b))"
+    },
+    {
+        "id": 3,
+        "category": "Regulations",
+        "question": "You are on an IFR flight plan and lose communications in IMC. You were assigned a route to a fix, but told to expect a different route further on. Which route do you fly?",
+        "answer": "You fly the Assigned route to the fix, then the Expected route. The order of priority is Assigned, Vectored, Expected, Filed (AVE F). (14 CFR 91.185(c)(1))"
+    },
+    {
+        "id": 4,
+        "category": "Regulations",
+        "question": "You are flying an approach and reach the DA/DH. You see the approach light system but not the runway. Can you descend further?",
+        "answer": "Yes, you may descend to 100 feet above the Touchdown Zone Elevation (TDZE). To descend below 100 feet, you must have the red terminating bars or the red side row bars in sight, or the runway environment itself. (14 CFR 91.175(c)(3)(i))"
+    },
+    {
+        "id": 5,
+        "category": "Regulations",
+        "question": "You are acting as PIC for an IFR flight. A passenger asks if you are 'current'. You have logged 6 approaches, holding, and tracking in the last 6 months, but not in the same category of aircraft you are flying today. Are you current?",
+        "answer": "Yes, provided the approaches and tasks were performed in the same category of aircraft (e.g., airplane) or in an approved FSTD/ATD. Class (e.g., single-engine vs multi-engine) is not required for instrument currency, only Category. (14 CFR 61.57(c))"
+    },
+    {
+        "id": 6,
+        "category": "Regulations",
+        "question": "You are planning a flight to an airport without an instrument approach. The weather forecast indicates ceilings of 1,500 feet and 4 SM visibility. Do you need to file an alternate?",
+        "answer": "Yes. The '1-2-3 Rule' exception (1 hour before/after, 2000' ceiling, 3 SM vis) applies to the destination. However, since the destination has no instrument approach, you must file an alternate regardless of the weather. (14 CFR 91.169(b))"
+    },
+    {
+        "id": 7,
+        "category": "Regulations",
+        "question": "You arrive at your destination and the VOR required for the approach is out of service. You have GPS, but the approach plate does not say 'GPS' or 'RNAV'. Can you fly the approach?",
+        "answer": "No. Unless the underlying navaid is operational and monitored, you cannot fly the approach, even if you use GPS for overlay guidance. You can only substitute GPS for ADF or DME, not for the primary lateral guidance of a VOR/LOC approach unless authorized. (AIM 1-2-3)"
+    },
+    {
+        "id": 8,
+        "category": "Regulations",
+        "question": "You are flying IFR and receive a clearance that contains a 'Void Time'. What does this mean for your departure?",
+        "answer": "You must depart by the void time. If you do not depart by that time, the clearance is void, and you may not depart without a new clearance. You must notify ATC within 30 minutes if you do not depart. (AIM 5-2-6)"
+    },
+    {
+        "id": 9,
+        "category": "Regulations",
+        "question": "You are setting up for an instrument approach. The weather is reported as 1/2 SM visibility, but the approach plate requires 1 SM. Can you begin the approach? (Part 91)",
+        "answer": "Yes. Under Part 91, you can begin the approach regardless of reported weather. However, you cannot land unless the flight visibility is at least the minimum prescribed on the approach chart at the time you reach the DA/MDA. (14 CFR 91.175)"
+    },
+    {
+        "id": 10,
+        "category": "Regulations",
+        "question": "You are cleared for a 'Visual Approach'. What weather conditions must exist?",
+        "answer": "The airport or the preceding aircraft must be in sight. The reported weather at the airport must be at least 1,000 foot ceiling and 3 SM visibility. You must remain clear of clouds. (AIM 5-4-23)"
+    },
+    {
+        "id": 11,
+        "category": "Flight Planning",
+        "question": "You are checking NOTAMs and see a '(D)' NOTAM. What kind of information does this typically contain?",
+        "answer": "Distant (D) NOTAMs contain information regarding runway closures, navaid outages, and other essential information for all navigational facilities that are part of the NAS. (AIM 5-1-3)"
+    },
+    {
+        "id": 12,
+        "category": "Flight Planning",
+        "question": "You see 'FDC NOTAM' in your briefing. What is this?",
+        "answer": "Flight Data Center NOTAMs are regulatory in nature. They typically announce amendments to instrument approach procedures, TFRs, and other regulatory changes. (AIM 5-1-3)"
+    },
+    {
+        "id": 13,
+        "category": "Flight Planning",
+        "question": "You are calculating fuel for an IFR flight. The winds aloft forecast shows a 30-knot headwind. How does this affect your legal fuel reserve?",
+        "answer": "It increases the total fuel required. You must have enough fuel to fly to the destination, then to the alternate (if required), and then for 45 minutes at normal cruise. The headwind will increase the time and fuel needed for the first two legs. (14 CFR 91.167)"
+    },
+    {
+        "id": 14,
+        "category": "Flight Planning",
+        "question": "What is the purpose of a RAIM check before flight?",
+        "answer": "To ensure that the GPS constellation will provide sufficient integrity monitoring for the intended route and approach. If RAIM is predicted to be unavailable, you cannot rely on GPS for navigation or approaches during that time. (AIM 1-1-17)"
+    },
+    {
+        "id": 15,
+        "category": "Flight Planning",
+        "question": "You are looking at a Low Enroute Chart and see a brown airport symbol without instrument approach procedure markings. What does this indicate?",
+        "answer": "It indicates an airport without a published instrument approach procedure. (Chart User's Guide)"
+    },
+    {
+        "id": 16,
+        "category": "Flight Planning",
+        "question": "On an Enroute Chart, you see an 'MEA' of 5000 and a 'MOCA' of 3000. You are flying at 4000 using VOR navigation. Are you legal?",
+        "answer": "It depends on your distance from the VOR. The MOCA guarantees obstacle clearance but only guarantees VOR signal reception within 22 NM of the station. If you are further than 22 NM, you must be at or above the MEA (5000) for guaranteed reception. (14 CFR 91.177)"
+    },
+    {
+        "id": 17,
+        "category": "Flight Planning",
+        "question": "What is a 'Preferred IFR Route' and where can you find them?",
+        "answer": "Routes established between busier airports to increase system efficiency and capacity. They are listed in the Chart Supplement U.S. (formerly A/FD). (AIM 5-1-8)"
+    },
+    {
+        "id": 18,
+        "category": "Flight Planning",
+        "question": "You are filing an IFR flight plan. What equipment code do you use for a standard C172 with a WAAS GPS (e.g., GNS 430W) and Mode C transponder?",
+        "answer": "Typically 'G' for GPS/GNSS. For the surveillance code, usually 'C' (Mode C) or 'U' (Mode S). In ICAO format, you would list 'G', 'R' (PBN approved), 'S' (Standard), and in Item 18 specify PBN codes (e.g., C2, D2, S1). (AIM 5-1-9)"
+    },
+    {
+        "id": 19,
+        "category": "Flight Planning",
+        "question": "What is the difference between an ODP and a SID?",
+        "answer": "An ODP (Obstacle Departure Procedure) is designed solely for obstacle clearance and can be flown without an ATC clearance. A SID (Standard Instrument Departure) is designed for ATC traffic management and requires an ATC clearance to fly. (AIM 5-2-9)"
+    },
+    {
+        "id": 20,
+        "category": "Flight Planning",
+        "question": "You see a 'T' in a black triangle on an approach plate. What does this mean?",
+        "answer": "It signifies that the airport has non-standard takeoff minimums and/or departure procedures published in the Terminal Procedures Publication. (AIM 5-2-8)"
+    },
+    {
+        "id": 21,
+        "category": "Weather",
+        "question": "You see a METAR reporting 'TSRA'. What does this mean and what hazards should you expect?",
+        "answer": "Thunderstorms and Rain. Expect severe turbulence, strong downdrafts (microbursts), hail, lightning, and potential icing. (AIM 7-1-29)"
+    },
+    {
+        "id": 22,
+        "category": "Weather",
+        "question": "The temperature is 10°C and the dew point is 9°C. What weather condition is likely forming?",
+        "answer": "Fog or low clouds. When the temperature/dew point spread is within 3°C (5°F), visible moisture is likely. (AC 00-6B)"
+    },
+    {
+        "id": 23,
+        "category": "Weather",
+        "question": "You encounter ice pellets at 4,000 feet. What does this tell you about the temperature structure above you?",
+        "answer": "There is a layer of warmer air above you (temperature inversion) where rain is falling, and then freezing as it falls through the colder air layer you are in. Climbing might put you into freezing rain, which is extremely hazardous. (AC 00-6B)"
+    },
+    {
+        "id": 24,
+        "category": "Weather",
+        "question": "What is the definition of 'Severe Icing'?",
+        "answer": "The rate of accumulation is such that deicing/anti-icing equipment fails to reduce or control the hazard. Immediate flight diversion is necessary. (AIM 7-1-21)"
+    },
+    {
+        "id": 25,
+        "category": "Weather",
+        "question": "You are flying towards a warm front. What type of weather can you generally expect?",
+        "answer": "Stratiform clouds, steady precipitation, low ceilings, and poor visibility. If the air is unstable, embedded thunderstorms may occur. (AC 00-6B)"
+    },
+    {
+        "id": 26,
+        "category": "Weather",
+        "question": "What is a 'SIGMET' (WS) issued for?",
+        "answer": "Severe icing, severe or extreme turbulence, dust storms/sandstorms lowering visibility to <3 miles, or volcanic ash. It applies to ALL aircraft. (AIM 7-1-6)"
+    },
+    {
+        "id": 27,
+        "category": "Weather",
+        "question": "What is the difference between a SIGMET and a CONVECTIVE SIGMET?",
+        "answer": "A Convective SIGMET implies thunderstorms (severe, embedded, or lines) and their associated hazards (hail, wind shear, tornadoes). A standard SIGMET covers non-convective hazards like clear air turbulence or widespread dust. (AIM 7-1-6)"
+    },
+    {
+        "id": 28,
+        "category": "Weather",
+        "question": "You are reviewing a Surface Analysis Chart. What do closely spaced isobars indicate?",
+        "answer": "A steep pressure gradient, which indicates strong winds. (AC 00-6B)"
+    },
+    {
+        "id": 29,
+        "category": "Weather",
+        "question": "What is the primary cause of all weather?",
+        "answer": "The uneven heating of the Earth's surface by the sun. (AC 00-6B)"
+    },
+    {
+        "id": 30,
+        "category": "Weather",
+        "question": "During your preflight, you see a PIREP for 'LLWS +/- 20KT'. What does this mean?",
+        "answer": "Low-Level Wind Shear with a loss or gain of 20 knots has been reported. This is a significant hazard for takeoff and landing. (AIM 7-1-26)"
+    },
+    {
+        "id": 31,
+        "category": "Navigation",
+        "question": "You are tracking a VOR radial inbound. You drift off course. To intercept, you turn towards the needle. How do you determine the intercept angle?",
+        "answer": "A common method is 'Double the Error' (up to a max of 45-90 degrees depending on distance). Or use a standard intercept angle like 30 or 45 degrees. Ensure the heading indicator agrees with the OBS selection to avoid reverse sensing. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 32,
+        "category": "Navigation",
+        "question": "What is 'Reverse Sensing' on a VOR?",
+        "answer": "When the aircraft heading and the OBS selection are roughly opposite (e.g., flying TO a station with a FROM indication set). The needle will deflect in the opposite direction of the error. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 33,
+        "category": "Navigation",
+        "question": "You are flying a DME arc. How do you maintain the arc distance?",
+        "answer": "By flying a series of short straight legs. Turn 10 degrees, fly until the bearing pointer is 10 degrees behind the wingtip, then turn 10 degrees again. Keep the DME distance constant. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 34,
+        "category": "Navigation",
+        "question": "What is the sensitivity of a GPS in 'Enroute' mode?",
+        "answer": "5.0 NM (full scale deflection). (AIM 1-1-17)"
+    },
+    {
+        "id": 35,
+        "category": "Navigation",
+        "question": "What is the sensitivity of a GPS in 'Terminal' mode?",
+        "answer": "1.0 NM (full scale deflection). This mode activates within 30 NM of the destination. (AIM 1-1-17)"
+    },
+    {
+        "id": 36,
+        "category": "Navigation",
+        "question": "What is the sensitivity of a GPS in 'Approach' mode (LNAV)?",
+        "answer": "0.3 NM (full scale deflection). This mode activates 2 NM prior to the FAF. (AIM 1-1-17)"
+    },
+    {
+        "id": 37,
+        "category": "Navigation",
+        "question": "You lose your alternator in flight. You are running on battery power. Which gyroscopic instrument will fail first?",
+        "answer": "The Turn Coordinator, as it is typically electrically driven. The Attitude and Heading indicators are usually vacuum-driven (in traditional steam gauge aircraft). (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 38,
+        "category": "Navigation",
+        "question": "Your vacuum pump fails. Which instruments are lost?",
+        "answer": "The Attitude Indicator and the Heading Indicator. The Turn Coordinator will likely still work if it is electric. (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 39,
+        "category": "Navigation",
+        "question": "You are flying in a standard rate turn to the right. You accelerate. What does the magnetic compass show?",
+        "answer": "It will likely show a turn to the North (ANDS - Accelerate North). However, since you are already turning, the error depends on your heading. The most prominent acceleration error is on East/West headings. (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 40,
+        "category": "Navigation",
+        "question": "What is the difference between a Localizer and a VOR in terms of sensitivity?",
+        "answer": "A Localizer is 4 times more sensitive than a VOR. Full scale deflection on a VOR is 10°, while on a Localizer it is 2.5°. (AIM 1-1-9)"
+    },
+    {
+        "id": 41,
+        "category": "Procedures",
+        "question": "You are holding at a fix. ATC clears you for the approach. What do you do?",
+        "answer": "You must proceed to the IAF (Initial Approach Fix) and execute the full approach procedure, unless cleared for a 'Straight-in' approach or vectored to final. If holding at a fix that is part of the approach, you proceed outbound/inbound as published. (AIM 5-4-9)"
+    },
+    {
+        "id": 42,
+        "category": "Procedures",
+        "question": "You are cleared for a 'Contact Approach'. Who initiates this request?",
+        "answer": "The pilot must initiate the request. ATC cannot assign a contact approach. (AIM 5-4-25)"
+    },
+    {
+        "id": 43,
+        "category": "Procedures",
+        "question": "What is the difference between 'Maintain' and 'Cruise' altitude assignments?",
+        "answer": "'Maintain' requires you to stay at a specific altitude. 'Cruise' allows you to fly at any altitude from the minimum IFR altitude up to the assigned altitude, and allows you to descend for an approach at your discretion. (AIM 4-4-3)"
+    },
+    {
+        "id": 44,
+        "category": "Procedures",
+        "question": "You are flying an ILS approach. The glideslope fails. What do you do?",
+        "answer": "You revert to the Localizer-only (non-precision) approach minimums (MDA). You must identify the MAP (usually time or DME) since the DA no longer applies. (AIM 1-1-9)"
+    },
+    {
+        "id": 45,
+        "category": "Procedures",
+        "question": "When are you required to execute a Missed Approach?",
+        "answer": "1. Arrival at the MAP/DA without the runway environment in sight.\n2. Arrival at the MAP/DA and flight visibility is below minimums.\n3. Anytime you determine a safe landing cannot be made.\n4. When directed by ATC. (14 CFR 91.175)"
+    },
+    {
+        "id": 46,
+        "category": "Procedures",
+        "question": "You go missed. What is your immediate action?",
+        "answer": "Power up, Pitch up, Clean up (flaps/gear). Then follow the published Missed Approach Procedure or ATC instructions (Climb, Turn, Communicate). (Instrument Flying Handbook)"
+    },
+    {
+        "id": 47,
+        "category": "Procedures",
+        "question": "You are on a 'Feeder Route' to an IAF. What altitude do you fly?",
+        "answer": "You fly the altitude published on the chart for that feeder route. It provides obstacle clearance (1000' non-mountainous, 2000' mountainous). (Instrument Procedures Handbook)"
+    },
+    {
+        "id": 48,
+        "category": "Procedures",
+        "question": "What is a 'Procedure Turn' and when is it NOT required?",
+        "answer": "A maneuver to reverse direction and establish the aircraft on the intermediate approach segment. It is NOT required when:\n1. 'NoPT' is depicted.\n2. Radar vectored to final.\n3. Timed approach from a hold.\n4. Cleared for a 'Straight-in' approach.\n5. Teardrop course reversal is depicted and required. (14 CFR 91.175)"
+    },
+    {
+        "id": 49,
+        "category": "Procedures",
+        "question": "You are flying a non-precision approach. You reach the VDP but do not see the runway. Can you descend below MDA?",
+        "answer": "No. You must remain at the MDA until you acquire the required visual references. If you pass the VDP and then see the runway, you may not be in a position to make a normal descent to landing. (AIM 5-4-5)"
+    },
+    {
+        "id": 50,
+        "category": "Procedures",
+        "question": "What is the significance of the 'Malta Cross' symbol on an approach plate?",
+        "answer": "It depicts the Final Approach Fix (FAF) for a non-precision approach. (Chart User's Guide)"
+    },
+    {
+        "id": 51,
+        "category": "Regulations",
+        "question": "You are involved in an aircraft accident where substantial damage occurs. When must you notify the NTSB?",
+        "answer": "You must notify the NTSB immediately. (NTSB 830.5)"
+    },
+    {
+        "id": 52,
+        "category": "Regulations",
+        "question": "What constitutes 'Substantial Damage' according to NTSB 830?",
+        "answer": "Damage or failure which adversely affects the structural strength, performance, or flight characteristics of the aircraft, and which would normally require major repair or replacement of the affected component. (NTSB 830.2)"
+    },
+    {
+        "id": 53,
+        "category": "Regulations",
+        "question": "You experience a complete loss of information from more than 50% of your cockpit displays (EFIS) during an IFR flight. Is this reportable to the NTSB?",
+        "answer": "Yes. This is considered a 'Serious Incident' and requires immediate notification. (NTSB 830.5)"
+    },
+    {
+        "id": 54,
+        "category": "Regulations",
+        "question": "After notifying the NTSB of an accident, when must you file a written report?",
+        "answer": "Within 10 days after the accident. (NTSB 830.15)"
+    },
+    {
+        "id": 55,
+        "category": "Regulations",
+        "question": "When must you file a report for an overdue aircraft that is believed to have been involved in an accident?",
+        "answer": "Within 7 days if the aircraft is still missing. (NTSB 830.15)"
+    },
+    {
+        "id": 56,
+        "category": "Regulations",
+        "question": "Can you fly IFR with a 'BasicMed' certificate?",
+        "answer": "Yes, provided the aircraft is authorized for IFR, you are instrument rated and current, and you comply with all BasicMed limitations (e.g., <6000 lbs, <250 kts, <18,000 MSL). (14 CFR 61.113(i))"
+    },
+    {
+        "id": 57,
+        "category": "Regulations",
+        "question": "You are flying a pressurized aircraft at FL250. One pilot leaves the cockpit. What must the other pilot do regarding oxygen masks?",
+        "answer": "The remaining pilot at the controls must put on and use an oxygen mask until the other pilot returns. (14 CFR 91.211)"
+    },
+    {
+        "id": 58,
+        "category": "Regulations",
+        "question": "What are the oxygen requirements for Part 91 flights between 12,500 and 14,000 feet MSL?",
+        "answer": "Flight crew must use supplemental oxygen for that part of the flight at those altitudes that is of more than 30 minutes duration. (14 CFR 91.211)"
+    },
+    {
+        "id": 59,
+        "category": "Regulations",
+        "question": "What are the oxygen requirements above 14,000 feet MSL?",
+        "answer": "The required minimum flight crew must use supplemental oxygen during the entire flight time at those altitudes. (14 CFR 91.211)"
+    },
+    {
+        "id": 60,
+        "category": "Regulations",
+        "question": "What are the oxygen requirements above 15,000 feet MSL?",
+        "answer": "Each occupant of the aircraft must be provided with supplemental oxygen. (14 CFR 91.211)"
+    },
+    {
+        "id": 61,
+        "category": "Flight Planning",
+        "question": "What is a 'Composite Flight Plan'?",
+        "answer": "A flight plan that specifies VFR operation for one portion of the flight and IFR for another portion. It is used when a pilot expects to fly VFR for part of the route and IFR for the remainder. (AIM 5-1-7)"
+    },
+    {
+        "id": 62,
+        "category": "Flight Planning",
+        "question": "You are planning a flight using VOR airways. What is the width of a Victor Airway?",
+        "answer": "8 NM total width (4 NM on each side of the centerline). (AIM 5-3-4)"
+    },
+    {
+        "id": 63,
+        "category": "Flight Planning",
+        "question": "What is a 'Changeover Point' (COP) on an airway?",
+        "answer": "The point where you should change your navigation receiver frequency from the station behind you to the station ahead of you. It is usually midway, unless depicted otherwise by a 'Z' symbol. (AIM 5-3-6)"
+    },
+    {
+        "id": 64,
+        "category": "Flight Planning",
+        "question": "You see a blue airport symbol on a Low Enroute Chart. What does this indicate?",
+        "answer": "It indicates an airport with an approved Instrument Approach Procedure and/or Radar Minima published in the High Altitude DoD Flip. For civilian charts, blue/green usually indicates an airport with instrument approaches. (Chart User's Guide)"
+    },
+    {
+        "id": 65,
+        "category": "Flight Planning",
+        "question": "What is the maximum altitude for a Low Altitude Enroute Chart?",
+        "answer": "Up to but not including 18,000 feet MSL. (Chart User's Guide)"
+    },
+    {
+        "id": 66,
+        "category": "Flight Planning",
+        "question": "What is a 'T-Route'?",
+        "answer": "A low-altitude RNAV route (e.g., T-210) available for use by GPS/GNSS equipped aircraft. They are depicted in blue on Low Enroute Charts. (AIM 5-3-4)"
+    },
+    {
+        "id": 67,
+        "category": "Flight Planning",
+        "question": "What is a 'Q-Route'?",
+        "answer": "A high-altitude RNAV route (e.g., Q-10) for use between 18,000 feet MSL and FL450. (AIM 5-3-4)"
+    },
+    {
+        "id": 68,
+        "category": "Flight Planning",
+        "question": "You are checking the freezing level forecast. Which chart gives you this information?",
+        "answer": "The Freezing Level Graphics (part of the G-AIRMET) or the Low-Level Significant Weather Prog Chart. (AC 00-45H)"
+    },
+    {
+        "id": 69,
+        "category": "Flight Planning",
+        "question": "What is the 'Standard Service Volume' of a Terminal VOR?",
+        "answer": "1,000 to 12,000 feet AGL out to 25 NM. (AIM 1-1-8)"
+    },
+    {
+        "id": 70,
+        "category": "Flight Planning",
+        "question": "What is the 'Standard Service Volume' of a Low Altitude VOR?",
+        "answer": "1,000 to 18,000 feet AGL out to 40 NM. (AIM 1-1-8)"
+    },
+    {
+        "id": 71,
+        "category": "Weather",
+        "question": "What is a 'Squall Line'?",
+        "answer": "A non-frontal, narrow band of active thunderstorms. It often develops ahead of a cold front in moist, unstable air. It presents the single most intense weather hazard to aircraft. (AC 00-6B)"
+    },
+    {
+        "id": 72,
+        "category": "Weather",
+        "question": "What is 'Clear Air Turbulence' (CAT)?",
+        "answer": "Turbulence encountered in air where no clouds are present. It is often associated with the jet stream or high-level frontal zones. (AC 00-6B)"
+    },
+    {
+        "id": 73,
+        "category": "Weather",
+        "question": "What is the definition of 'Wind Shear'?",
+        "answer": "A sudden, drastic change in wind speed and/or direction over a very small area. It can occur at any altitude. (AC 00-6B)"
+    },
+    {
+        "id": 74,
+        "category": "Weather",
+        "question": "You see 'SLD' in a weather briefing. What does it stand for and why is it dangerous?",
+        "answer": "Supercooled Large Droplets. These are water droplets that remain liquid below freezing and are larger than normal cloud droplets. They can cause severe icing that extends aft of protected surfaces (runback ice). (AC 00-6B)"
+    },
+    {
+        "id": 75,
+        "category": "Weather",
+        "question": "What is the difference between Stable and Unstable air?",
+        "answer": "Stable air resists vertical motion (smooth air, stratiform clouds, poor visibility). Unstable air encourages vertical motion (turbulence, cumuliform clouds, good visibility). (AC 00-6B)"
+    },
+    {
+        "id": 76,
+        "category": "Weather",
+        "question": "What is an 'Occluded Front'?",
+        "answer": "A frontal system that occurs when a cold front overtakes a warm front. It forces the warm air aloft. (AC 00-6B)"
+    },
+    {
+        "id": 77,
+        "category": "Weather",
+        "question": "What is a 'Stationary Front'?",
+        "answer": "A front between two air masses that is moving very slowly or not at all. Weather can persist for days. (AC 00-6B)"
+    },
+    {
+        "id": 78,
+        "category": "Weather",
+        "question": "What is the 'Tropopause'?",
+        "answer": "The boundary between the troposphere and the stratosphere. It is characterized by an abrupt change in the temperature lapse rate (temperature stops decreasing with height). Jet streams and maximum winds are often found here. (AC 00-6B)"
+    },
+    {
+        "id": 79,
+        "category": "Weather",
+        "question": "You are flying into an area with a 'Temperature Inversion'. What flight conditions should you expect?",
+        "answer": "Stable air, poor visibility (haze/fog/smog trapped below), and potential wind shear at the inversion layer. (AC 00-6B)"
+    },
+    {
+        "id": 80,
+        "category": "Weather",
+        "question": "What is 'Virga'?",
+        "answer": "Precipitation falling from a cloud that evaporates before reaching the ground. It indicates strong downdrafts and possible microbursts. (AC 00-6B)"
+    },
+    {
+        "id": 81,
+        "category": "Navigation",
+        "question": "What is the difference between 'Fly-Over' and 'Fly-By' waypoints?",
+        "answer": "A Fly-By waypoint allows the aircraft to turn prior to the waypoint to intercept the next course (turn anticipation). A Fly-Over waypoint (circled symbol) requires the aircraft to fly directly over the waypoint before turning. (AIM 1-1-17)"
+    },
+    {
+        "id": 82,
+        "category": "Navigation",
+        "question": "What is 'RNP' (Required Navigation Performance)?",
+        "answer": "A statement of the navigation performance necessary for operation within a defined airspace. It includes a requirement for on-board performance monitoring and alerting (e.g., RNP 0.3). (AIM 1-2-1)"
+    },
+    {
+        "id": 83,
+        "category": "Navigation",
+        "question": "What is 'GBAS'?",
+        "answer": "Ground Based Augmentation System. It provides differential corrections and integrity monitoring to support precision approaches (GLS) using GPS. It is more localized than WAAS. (AIM 1-1-19)"
+    },
+    {
+        "id": 84,
+        "category": "Navigation",
+        "question": "You are using an HSI. What is the advantage over a standard VOR indicator?",
+        "answer": "It combines the heading indicator and the VOR/LOC indicator. It reduces pilot workload and eliminates reverse sensing (if set correctly to the front course). (Instrument Flying Handbook)"
+    },
+    {
+        "id": 85,
+        "category": "Navigation",
+        "question": "What is a 'Flux Gate Compass'?",
+        "answer": "A remote magnetic slaving system used to drive the Heading Indicator/HSI. It continuously corrects for gyro precession, reducing the need for manual resetting. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 86,
+        "category": "Navigation",
+        "question": "What is 'ADC' in a glass cockpit?",
+        "answer": "Air Data Computer. It processes pitot/static and temperature inputs to calculate altitude, airspeed, vertical speed, and TAS. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 87,
+        "category": "Navigation",
+        "question": "What is 'AHRS' in a glass cockpit?",
+        "answer": "Attitude and Heading Reference System. It uses accelerometers, tilt sensors, and magnetometers to replace traditional gyroscopes for attitude and heading information. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 88,
+        "category": "Navigation",
+        "question": "If your ADC fails, what instruments do you lose?",
+        "answer": "Airspeed, Altimeter, VSI, and True Airspeed. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 89,
+        "category": "Navigation",
+        "question": "If your AHRS fails, what instruments do you lose?",
+        "answer": "Attitude Indicator, Heading Indicator (HSI), and Rate of Turn information. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 90,
+        "category": "Navigation",
+        "question": "What is the 'Standby Battery' on a G1000 system used for?",
+        "answer": "It provides power to the essential bus (PFD, ADC, AHRS, Comm 1, Nav 1) for a limited time (usually 30-60 mins) in the event of a total electrical failure. (G1000 Pilot Guide)"
+    },
+    {
+        "id": 91,
+        "category": "Procedures",
+        "question": "What is a 'Visual Descent Point' (VDP)?",
+        "answer": "A defined point on the final approach course of a non-precision approach from which normal descent from the MDA to the runway touchdown point may be commenced, provided the visual reference is established. (AIM 5-4-5)"
+    },
+    {
+        "id": 92,
+        "category": "Procedures",
+        "question": "You are flying a 'Timed Approach from a Holding Fix'. Is a Procedure Turn required?",
+        "answer": "No. Timed approaches from a holding fix are one of the conditions where a procedure turn is not authorized. (14 CFR 91.175)"
+    },
+    {
+        "id": 93,
+        "category": "Procedures",
+        "question": "What is the difference between 'Radar Contact' and 'Radar Service Terminated'?",
+        "answer": "'Radar Contact' means your aircraft has been identified and flight following/separation is being provided. 'Radar Service Terminated' means you are no longer receiving radar services (usually when leaving the radar environment or landing). (AIM 5-1-13)"
+    },
+    {
+        "id": 94,
+        "category": "Procedures",
+        "question": "What is 'Resume Own Navigation'?",
+        "answer": "Used by ATC to advise a pilot to resume their own navigational responsibility. It is usually issued after completion of a radar vector or when radar contact is lost. (Pilot/Controller Glossary)"
+    },
+    {
+        "id": 95,
+        "category": "Procedures",
+        "question": "You are cleared for the 'Option'. What does this mean?",
+        "answer": "It permits the pilot to make a touch-and-go, low approach, missed approach, stop-and-go, or full stop landing at their discretion. (AIM 4-3-22)"
+    },
+    {
+        "id": 96,
+        "category": "Procedures",
+        "question": "What is a 'Low Approach'?",
+        "answer": "An approach over an airport or runway following an instrument approach or a VFR approach including the go-around maneuver where the pilot intentionally does not make contact with the runway. (AIM 4-3-12)"
+    },
+    {
+        "id": 97,
+        "category": "Procedures",
+        "question": "What is the purpose of a 'Compass Locator'?",
+        "answer": "A low-power NDB (Non-Directional Beacon) often installed at the Outer Marker (LOM) of an ILS to help with orientation and transition to the final approach course. (AIM 1-1-2)"
+    },
+    {
+        "id": 98,
+        "category": "Procedures",
+        "question": "What is a 'Precision Runway Monitor' (PRM) approach?",
+        "answer": "A radar system that allows for simultaneous independent ILS approaches to closely spaced parallel runways. It requires specific pilot training and dual VHF communications. (AIM 5-4-16)"
+    },
+    {
+        "id": 99,
+        "category": "Procedures",
+        "question": "What is 'Simultaneous Close Parallel' approaches?",
+        "answer": "Independent approaches to parallel runways spaced less than 4,300 feet apart. Requires PRM or similar high-update radar. (AIM 5-4-16)"
+    },
+    {
+        "id": 100,
+        "category": "Procedures",
+        "question": "You are flying an approach and the controller says 'Execute Missed Approach'. What do you do?",
+        "answer": "Immediately execute the missed approach procedure. If you are not yet at the MAP, fly the lateral course to the MAP before making any turns, while climbing to the missed approach altitude. (AIM 5-4-21)"
+    },
+    {
+        "id": 101,
+        "category": "Procedures",
+        "question": "You are given a holding clearance. What are the three standard holding entries?",
+        "answer": "Direct, Parallel, and Teardrop. The entry procedure is determined by your heading relative to the holding course. (AIM 5-3-8)"
+    },
+    {
+        "id": 102,
+        "category": "Procedures",
+        "question": "What is the standard leg length for a holding pattern below 14,000 feet MSL?",
+        "answer": "1 minute inbound. (AIM 5-3-8)"
+    },
+    {
+        "id": 103,
+        "category": "Procedures",
+        "question": "What is the standard leg length for a holding pattern above 14,000 feet MSL?",
+        "answer": "1.5 minutes inbound. (AIM 5-3-8)"
+    },
+    {
+        "id": 104,
+        "category": "Procedures",
+        "question": "What are the maximum holding speeds?",
+        "answer": "- MHA to 6,000' MSL: 200 KIAS\n- 6,001' to 14,000' MSL: 230 KIAS\n- 14,001' and above: 265 KIAS\n(AIM 5-3-8)"
+    },
+    {
+        "id": 105,
+        "category": "Procedures",
+        "question": "When do you start timing the outbound leg of a holding pattern?",
+        "answer": "Over or abeam the fix, whichever occurs later. If the abeam position cannot be determined, start timing when the turn to outbound is completed. (AIM 5-3-8)"
+    },
+    {
+        "id": 106,
+        "category": "Procedures",
+        "question": "You are flying an IFR flight plan in VFR conditions. Can you fly 'VFR-on-Top'?",
+        "answer": "Yes, if requested by the pilot and authorized by ATC. You must fly at an appropriate VFR cruising altitude (odd/even + 500) and comply with VFR visibility and cloud clearance requirements, but you are still on an IFR flight plan. (AIM 4-4-8)"
+    },
+    {
+        "id": 107,
+        "category": "Procedures",
+        "question": "What is an 'MRA' on an enroute chart?",
+        "answer": "Minimum Reception Altitude. The lowest altitude at which an intersection can be determined (identified) using the specific navaids depicted. (Chart User's Guide)"
+    },
+    {
+        "id": 108,
+        "category": "Procedures",
+        "question": "What is an 'MCA' on an enroute chart?",
+        "answer": "Minimum Crossing Altitude. The lowest altitude at certain fixes at which an aircraft must cross when proceeding in the direction of a higher MEA. (Chart User's Guide)"
+    },
+    {
+        "id": 109,
+        "category": "Procedures",
+        "question": "What is a 'STAR'?",
+        "answer": "Standard Terminal Arrival Route. A preplanned IFR ATC arrival procedure published for pilot use in graphic and/or textual form. It simplifies clearance delivery and facilitates transition between enroute and instrument approach procedures. (AIM 5-4-1)"
+    },
+    {
+        "id": 110,
+        "category": "Procedures",
+        "question": "You are cleared to 'Descend Via' a STAR. What does this authorize?",
+        "answer": "It authorizes you to vertically navigate on the STAR, complying with all published altitude and speed restrictions. You must still have a lateral clearance (e.g., 'Cleared to X via the Y Arrival'). (AIM 5-4-1)"
+    },
+    {
+        "id": 111,
+        "category": "Procedures",
+        "question": "What is the difference between 'Cleared via the Arrival' and 'Descend via the Arrival'?",
+        "answer": "'Cleared via the Arrival' is for lateral routing only; you must maintain your last assigned altitude. 'Descend via the Arrival' authorizes both lateral routing and vertical navigation (descent) according to the published profile. (AIM 5-4-1)"
+    },
+    {
+        "id": 112,
+        "category": "Procedures",
+        "question": "How are Approach Categories (A, B, C, D, E) determined?",
+        "answer": "Based on 1.3 times the stalling speed in the landing configuration (Vso) at maximum certificated landing weight. (14 CFR 97.3)"
+    },
+    {
+        "id": 113,
+        "category": "Procedures",
+        "question": "What is the speed range for Category A aircraft?",
+        "answer": "Less than 91 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 114,
+        "category": "Procedures",
+        "question": "What is the speed range for Category B aircraft?",
+        "answer": "91 knots or more but less than 121 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 115,
+        "category": "Procedures",
+        "question": "You are flying a Category A aircraft but are circling at 100 knots. Which minimums should you use?",
+        "answer": "You should use Category B minimums. You must use the minimums for the category appropriate to the speed you are actually flying if it is higher than your certificated category. (AIM 5-4-7)"
+    },
+    {
+        "id": 116,
+        "category": "Procedures",
+        "question": "What is the standard circling radius for Category A aircraft?",
+        "answer": "1.3 NM from the runway ends (for standard approaches). Expanded circling areas depend on the MDA altitude. (AIM 5-4-20)"
+    },
+    {
+        "id": 117,
+        "category": "Procedures",
+        "question": "When can you descend from the MDA on a circling approach?",
+        "answer": "Only when you are in a position to land using normal maneuvers and the required visual references are in sight. You must remain at the MDA until this point. (14 CFR 91.175)"
+    },
+    {
+        "id": 118,
+        "category": "Procedures",
+        "question": "You lose visual contact with the runway while circling to land. What do you do?",
+        "answer": "Make an initial climbing turn toward the landing runway and continue the turn until established on the missed approach course. (AIM 5-4-21)"
+    },
+    {
+        "id": 119,
+        "category": "Weather",
+        "question": "In a TAF, what does 'FM' indicate?",
+        "answer": "From. It indicates a rapid and significant change in weather conditions occurring within less than an hour. (AC 00-45H)"
+    },
+    {
+        "id": 120,
+        "category": "Weather",
+        "question": "In a TAF, what does 'BECMG' indicate?",
+        "answer": "Becoming. It indicates a gradual change in weather conditions over a period of time (usually 2 hours). (AC 00-45H)"
+    },
+    {
+        "id": 121,
+        "category": "Weather",
+        "question": "In a TAF, what does 'PROB30' indicate?",
+        "answer": "Probability 30%. It indicates a 30% chance of the specified conditions occurring during the specified time period. (AC 00-45H)"
+    },
+    {
+        "id": 122,
+        "category": "Weather",
+        "question": "You see '9900' in the Winds Aloft forecast. What does this mean?",
+        "answer": "Light and Variable winds (less than 5 knots). (AC 00-45H)"
+    },
+    {
+        "id": 123,
+        "category": "Weather",
+        "question": "You see '7545' in the Winds Aloft forecast at 30,000 feet. What is the wind speed and direction?",
+        "answer": "Wind direction is 250 degrees (75-50=25). Wind speed is 145 knots (100+45). (AC 00-45H)"
+    },
+    {
+        "id": 124,
+        "category": "Weather",
+        "question": "What is 'RVR'?",
+        "answer": "Runway Visual Range. An instrumentally derived value representing the horizontal distance a pilot will see down the runway from the approach end. (AIM 7-1-15)"
+    },
+    {
+        "id": 125,
+        "category": "Weather",
+        "question": "If RVR is reported as 2400, what is the equivalent visibility in statute miles?",
+        "answer": "1/2 SM. (AIM Table 5-4-1)"
+    },
+    {
+        "id": 126,
+        "category": "Weather",
+        "question": "What is 'Advection Fog'?",
+        "answer": "Fog formed when moist air moves over colder ground or water. It requires wind to form and can persist with stronger winds than radiation fog. (AC 00-6B)"
+    },
+    {
+        "id": 127,
+        "category": "Weather",
+        "question": "What is 'Radiation Fog'?",
+        "answer": "Fog formed by the cooling of the ground at night, which cools the air above it to the dew point. It requires calm winds and clear skies. (AC 00-6B)"
+    },
+    {
+        "id": 128,
+        "category": "Weather",
+        "question": "What is 'Upslope Fog'?",
+        "answer": "Fog formed when moist, stable air is cooled as it moves up sloping terrain. (AC 00-6B)"
+    },
+    {
+        "id": 129,
+        "category": "Weather",
+        "question": "What is 'Steam Fog'?",
+        "answer": "Fog formed when cold, dry air moves over warm water. It can be turbulent and cause icing. (AC 00-6B)"
+    },
+    {
+        "id": 130,
+        "category": "Weather",
+        "question": "What is the 'Lapse Rate'?",
+        "answer": "The rate at which temperature decreases with an increase in altitude. The standard lapse rate is 2°C (3.5°F) per 1,000 feet. (AC 00-6B)"
+    },
+    {
+        "id": 131,
+        "category": "Navigation",
+        "question": "What is a 'Step-Down Fix'?",
+        "answer": "A fix permitting a descent to a lower altitude on the final approach segment. It is identified by a navaid, DME, or waypoint. (AIM 5-4-5)"
+    },
+    {
+        "id": 132,
+        "category": "Navigation",
+        "question": "What is 'VNAV'?",
+        "answer": "Vertical Navigation. An RNAV function that calculates a vertical path to a waypoint or along a route. (AIM 1-2-1)"
+    },
+    {
+        "id": 133,
+        "category": "Navigation",
+        "question": "What is 'LNAV/VNAV' minimums?",
+        "answer": "Minimums for a GPS approach that provides both lateral (LNAV) and vertical (VNAV) guidance. It requires a WAAS GPS or a Baro-VNAV system. (AIM 1-1-19)"
+    },
+    {
+        "id": 134,
+        "category": "Navigation",
+        "question": "What is 'LPV' minimums?",
+        "answer": "Localizer Performance with Vertical Guidance. It is a high-precision GPS approach minimum that uses WAAS to provide ILS-like performance. It is NOT a Precision Approach (technically APV), but is flown to a DA. (AIM 1-1-19)"
+    },
+    {
+        "id": 135,
+        "category": "Navigation",
+        "question": "What is 'LP' minimums?",
+        "answer": "Localizer Performance. A non-precision WAAS approach that uses the high precision of WAAS for lateral guidance but has no vertical guidance (flown to MDA). (AIM 1-1-19)"
+    },
+    {
+        "id": 136,
+        "category": "Navigation",
+        "question": "What is a 'Baro-VNAV' system?",
+        "answer": "A navigation system that uses barometric altitude information to compute vertical guidance. It is sensitive to temperature errors. (AIM 1-2-2)"
+    },
+    {
+        "id": 137,
+        "category": "Navigation",
+        "question": "Why do some RNAV approaches have a temperature limitation (e.g., -15°C)?",
+        "answer": "Because Baro-VNAV systems will compute a glidepath that is too low in very cold temperatures. LPV approaches are not affected by temperature because they use GPS altitude. (AIM 1-2-2)"
+    },
+    {
+        "id": 138,
+        "category": "Navigation",
+        "question": "What is 'DME Slant Range Error'?",
+        "answer": "The difference between the horizontal distance to the station and the actual straight-line distance measured by the DME. The error is greatest when high and close to the station. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 139,
+        "category": "Navigation",
+        "question": "What is the range of a 'Terminal' (T) class VOR?",
+        "answer": "25 NM from 1,000 to 12,000 feet AGL. (AIM 1-1-8)"
+    },
+    {
+        "id": 140,
+        "category": "Navigation",
+        "question": "What is the range of a 'High Altitude' (H) class VOR?",
+        "answer": "40 NM (1-14.5k), 100 NM (14.5-18k), 130 NM (18-45k), 100 NM (45-60k). (AIM 1-1-8)"
+    },
+    {
+        "id": 141,
+        "category": "Regulations",
+        "question": "You are flying IFR and your transponder fails. Can you continue the flight?",
+        "answer": "ATC may authorize you to continue to your destination or a repair station. You must request the deviation immediately. (14 CFR 91.215)"
+    },
+    {
+        "id": 142,
+        "category": "Regulations",
+        "question": "What are the requirements for 'No-Gyro' radar vectors?",
+        "answer": "You must follow ATC instructions to 'Turn Left/Right' and 'Stop Turn'. Turns should be standard rate unless otherwise advised. On final approach, turns should be half-standard rate. (AIM 5-4-11)"
+    },
+    {
+        "id": 143,
+        "category": "Regulations",
+        "question": "What is the 'Emergency' frequency?",
+        "answer": "121.5 MHz. (AIM 6-3-1)"
+    },
+    {
+        "id": 144,
+        "category": "Regulations",
+        "question": "What is the transponder code for 'Lost Communications'?",
+        "answer": "7600. (AIM 6-4-2)"
+    },
+    {
+        "id": 145,
+        "category": "Regulations",
+        "question": "What is the transponder code for 'Hijacking'?",
+        "answer": "7500. (AIM 6-4-2)"
+    },
+    {
+        "id": 146,
+        "category": "Regulations",
+        "question": "What is the transponder code for 'Emergency'?",
+        "answer": "7700. (AIM 6-4-2)"
+    },
+    {
+        "id": 147,
+        "category": "Regulations",
+        "question": "You are intercepted by a military aircraft. What frequency should you monitor?",
+        "answer": "121.5 MHz. (AIM 5-6-2)"
+    },
+    {
+        "id": 148,
+        "category": "Regulations",
+        "question": "What does 'Rocking Wings' mean if you are intercepted?",
+        "answer": "You have been intercepted. Follow me. (AIM 5-6-2)"
+    },
+    {
+        "id": 149,
+        "category": "Regulations",
+        "question": "What is the maximum speed in a procedure turn?",
+        "answer": "200 KIAS. (AIM 5-4-9)"
+    },
+    {
+        "id": 150,
+        "category": "Weather",
+        "question": "What is 'Advection Fog'?",
+        "answer": "Fog formed when moist air moves over colder ground or water. It requires wind to form. (AC 00-6B)"
+    },
+    {
+        "id": 151,
+        "category": "Weather",
+        "question": "What is 'Upslope Fog'?",
+        "answer": "Fog formed as moist, stable air moves up sloping terrain and cools adiabatically. (AC 00-6B)"
+    },
+    {
+        "id": 152,
+        "category": "Regulations",
+        "question": "What is the minimum altitude for IFR flight over a mountainous area?",
+        "answer": "2,000 feet above the highest obstacle within a horizontal distance of 4 NM from the course to be flown. (14 CFR 91.177)"
+    },
+    {
+        "id": 153,
+        "category": "Regulations",
+        "question": "What is the minimum altitude for IFR flight over a non-mountainous area?",
+        "answer": "1,000 feet above the highest obstacle within a horizontal distance of 4 NM from the course to be flown. (14 CFR 91.177)"
+    },
+    {
+        "id": 154,
+        "category": "Regulations",
+        "question": "You are flying IFR and experience a malfunction of your two-way radio communications. What must you report to ATC?",
+        "answer": "You must report the malfunction, including the aircraft identification, equipment affected, degree to which the capability of the pilot to operate under IFR in the ATC system is impaired, and the nature and extent of assistance desired from ATC. (14 CFR 91.187)"
+    },
+    {
+        "id": 155,
+        "category": "Regulations",
+        "question": "When must you hold an Instrument Rating?",
+        "answer": "1. When acting as PIC under IFR or in weather conditions less than VFR.\n2. When carrying passengers for compensation or hire on cross-country flights in excess of 50 NM or at night.\n3. For flight in Class A airspace.\n4. For Special VFR at night. (14 CFR 61.3)"
+    },
+    {
+        "id": 156,
+        "category": "Regulations",
+        "question": "You are logging instrument time. What information must be recorded in your logbook?",
+        "answer": "The location and type of each instrument approach accomplished, and the name of the safety pilot, if required. (14 CFR 61.51)"
+    },
+    {
+        "id": 157,
+        "category": "Regulations",
+        "question": "Can you use a flight simulator (FFS) or flight training device (FTD) to maintain instrument currency?",
+        "answer": "Yes, provided the device is approved by the FAA and you perform the required tasks (6 approaches, holding, tracking) within the preceding 6 calendar months. (14 CFR 61.57)"
+    },
+    {
+        "id": 158,
+        "category": "Regulations",
+        "question": "What is the 'IPC' (Instrument Proficiency Check)?",
+        "answer": "A check required if you have failed to maintain instrument currency for more than 12 months (6 months current + 6 months grace period). It must be conducted by a CFII, DPE, or approved check pilot. (14 CFR 61.57)"
+    },
+    {
+        "id": 159,
+        "category": "Regulations",
+        "question": "You are flying IFR. When must you file an alternate airport?",
+        "answer": "Always, unless the '1-2-3 Rule' applies: 1 hour before to 1 hour after your ETA, the ceiling is at least 2,000 feet and visibility is at least 3 SM. (14 CFR 91.169)"
+    },
+    {
+        "id": 160,
+        "category": "Regulations",
+        "question": "What are the standard alternate minimums for a precision approach?",
+        "answer": "600 foot ceiling and 2 SM visibility. (14 CFR 91.169)"
+    },
+    {
+        "id": 161,
+        "category": "Flight Planning",
+        "question": "What are the standard alternate minimums for a non-precision approach?",
+        "answer": "800 foot ceiling and 2 SM visibility. (14 CFR 91.169)"
+    },
+    {
+        "id": 162,
+        "category": "Flight Planning",
+        "question": "You want to list an airport as an alternate, but it has no instrument approach. Can you use it?",
+        "answer": "Yes, but only if the weather allows for a descent from the MEA, approach, and landing under basic VFR. (14 CFR 91.169)"
+    },
+    {
+        "id": 163,
+        "category": "Flight Planning",
+        "question": "What is a 'Preferred Route'?",
+        "answer": "A route established between busier airports to increase system efficiency. They are listed in the Chart Supplement. (AIM 5-1-8)"
+    },
+    {
+        "id": 164,
+        "category": "Flight Planning",
+        "question": "What is a 'TEC' route?",
+        "answer": "Tower Enroute Control. A service that allows aircraft to fly IFR between metropolitan areas without leaving approach control airspace. It is generally for non-turbojet aircraft below 10,000 feet. (Chart Supplement)"
+    },
+    {
+        "id": 165,
+        "category": "Flight Planning",
+        "question": "You are checking the 'Hot Spots' section of the Chart Supplement. What are you looking for?",
+        "answer": "Locations on an airport movement area with a history of potential collision or runway incursion, and where heightened attention by pilots is necessary. (AIM Chart Supplement)"
+    },
+    {
+        "id": 166,
+        "category": "Flight Planning",
+        "question": "What is 'RAIM' prediction?",
+        "answer": "Receiver Autonomous Integrity Monitoring prediction. It confirms that the GPS constellation will support the required integrity monitoring for your route and approach at your ETA. (AIM 1-1-17)"
+    },
+    {
+        "id": 167,
+        "category": "Flight Planning",
+        "question": "You are flying a WAAS-equipped aircraft. Do you need to check RAIM?",
+        "answer": "Generally, no. WAAS improves the accuracy, integrity, and availability of GPS signals. However, you should check for WAAS NOTAMs. (AIM 1-1-18)"
+    },
+    {
+        "id": 168,
+        "category": "Flight Planning",
+        "question": "What is the 'MEA'?",
+        "answer": "Minimum Enroute Altitude. Ensures acceptable navigational signal coverage and meets obstacle clearance requirements between radio fixes. (14 CFR 91.177)"
+    },
+    {
+        "id": 169,
+        "category": "Flight Planning",
+        "question": "What is the 'MOCA'?",
+        "answer": "Minimum Obstruction Clearance Altitude. Ensures obstacle clearance requirements for the entire route segment and ensures acceptable navigational signal coverage only within 22 NM of a VOR. (14 CFR 91.177)"
+    },
+    {
+        "id": 170,
+        "category": "Flight Planning",
+        "question": "What is the 'ORA' or 'OROCA'?",
+        "answer": "Off-Route Obstruction Clearance Altitude. Provides obstruction clearance with a 1,000-foot buffer in non-mountainous areas and a 2,000-foot buffer in mountainous areas. It does NOT guarantee signal coverage or communications. (Chart User's Guide)"
+    },
+    {
+        "id": 171,
+        "category": "Weather",
+        "question": "What are the three stages of a thunderstorm?",
+        "answer": "Cumulus (updrafts), Mature (updrafts and downdrafts, precipitation start), and Dissipating (downdrafts). (AC 00-6B)"
+    },
+    {
+        "id": 172,
+        "category": "Weather",
+        "question": "Which stage of a thunderstorm is characterized by the most severe weather?",
+        "answer": "The Mature stage. (AC 00-6B)"
+    },
+    {
+        "id": 173,
+        "category": "Weather",
+        "question": "What is a 'Microburst'?",
+        "answer": "A small-scale, intense downdraft that, on reaching the surface, spreads outward in all directions. It can cause wind shear of up to 90 knots and downdrafts of 6,000 fpm. It typically lasts 5-15 minutes. (AIM 7-1-26)"
+    },
+    {
+        "id": 174,
+        "category": "Weather",
+        "question": "What is 'Rime Ice'?",
+        "answer": "Rough, milky, opaque ice formed by the instantaneous freezing of small supercooled water droplets. It forms on the leading edges and can change the aerodynamic shape of the wing. (AC 00-6B)"
+    },
+    {
+        "id": 175,
+        "category": "Weather",
+        "question": "What is 'Clear Ice'?",
+        "answer": "Glossy, clear, or translucent ice formed by the relatively slow freezing of large supercooled water droplets. It is heavy and hard to remove. (AC 00-6B)"
+    },
+    {
+        "id": 176,
+        "category": "Weather",
+        "question": "What is 'Mixed Ice'?",
+        "answer": "A mixture of clear and rime ice. It forms when drops vary in size or when liquid drops are intermingled with snow or ice particles. (AC 00-6B)"
+    },
+    {
+        "id": 177,
+        "category": "Weather",
+        "question": "What conditions are necessary for structural icing to form?",
+        "answer": "Visible moisture (clouds, rain) and the aircraft surface temperature must be at or below freezing (0°C). (AC 00-6B)"
+    },
+    {
+        "id": 178,
+        "category": "Weather",
+        "question": "What is the most dangerous type of precipitation for icing?",
+        "answer": "Freezing Rain. It indicates warmer air above and can cause rapid accumulation of clear ice. (AC 00-6B)"
+    },
+    {
+        "id": 179,
+        "category": "Weather",
+        "question": "What is a 'Surface Analysis Chart'?",
+        "answer": "A chart that shows the distribution of sea-level pressure (isobars), locations of highs, lows, ridges, troughs, and fronts. (AC 00-45H)"
+    },
+    {
+        "id": 180,
+        "category": "Weather",
+        "question": "What is a 'Weather Depiction Chart'?",
+        "answer": "A chart that details surface conditions as derived from METARs. It shows areas of IFR, MVFR, and VFR weather. (AC 00-45H)"
+    },
+    {
+        "id": 181,
+        "category": "Navigation",
+        "question": "What is the 'Service Volume' of a Low Altitude VOR?",
+        "answer": "40 NM from 1,000 to 18,000 feet AGL. (AIM 1-1-8)"
+    },
+    {
+        "id": 182,
+        "category": "Navigation",
+        "question": "What is the 'Service Volume' of a High Altitude VOR?",
+        "answer": "40 NM (1-14.5k), 100 NM (14.5-18k), 130 NM (18-45k), 100 NM (45-60k). (AIM 1-1-8)"
+    },
+    {
+        "id": 183,
+        "category": "Navigation",
+        "question": "What is 'WAAS'?",
+        "answer": "Wide Area Augmentation System. A satellite-based augmentation system that improves the accuracy, integrity, and availability of GPS signals, allowing for vertical guidance approaches (LPV). (AIM 1-1-18)"
+    },
+    {
+        "id": 184,
+        "category": "Navigation",
+        "question": "What is 'DME'?",
+        "answer": "Distance Measuring Equipment. It measures the slant range distance in nautical miles between the aircraft and the ground station. (AIM 1-1-7)"
+    },
+    {
+        "id": 185,
+        "category": "Navigation",
+        "question": "What is the maximum error for an airborne VOR check?",
+        "answer": "±6 degrees. (14 CFR 91.171)"
+    },
+    {
+        "id": 186,
+        "category": "Navigation",
+        "question": "What is the maximum error for a ground VOR check?",
+        "answer": "±4 degrees. (14 CFR 91.171)"
+    },
+    {
+        "id": 187,
+        "category": "Navigation",
+        "question": "What is the maximum error for a dual VOR check?",
+        "answer": "4 degrees between the two indicators. (14 CFR 91.171)"
+    },
+    {
+        "id": 188,
+        "category": "Navigation",
+        "question": "What is 'Magnetic Deviation'?",
+        "answer": "The error induced in the compass by the aircraft's own magnetic fields (radios, engine, metal). It is corrected by the compass correction card. (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 189,
+        "category": "Navigation",
+        "question": "What is 'Magnetic Variation'?",
+        "answer": "The angular difference between True North and Magnetic North. It varies by location (isogonic lines). (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 190,
+        "category": "Navigation",
+        "question": "What is 'Northerly Turning Error'?",
+        "answer": "The compass lags when turning from North (undershoot North) and leads when turning from South (overshoot South). UNOS. (Pilot's Handbook of Aeronautical Knowledge)"
+    },
+    {
+        "id": 191,
+        "category": "Procedures",
+        "question": "What is a 'SID'?",
+        "answer": "Standard Instrument Departure. A preplanned IFR ATC departure procedure printed for pilot use in graphic or textual form to provide obstacle clearance and a transition from the terminal area to the appropriate enroute structure. (AIM 5-2-9)"
+    },
+    {
+        "id": 192,
+        "category": "Procedures",
+        "question": "What is an 'ODP'?",
+        "answer": "Obstacle Departure Procedure. A preplanned IFR departure procedure printed for pilot use in textual or graphic form to provide obstruction clearance via the least onerous route from the terminal area to the appropriate enroute structure. (AIM 5-2-9)"
+    },
+    {
+        "id": 193,
+        "category": "Procedures",
+        "question": "Do you need an ATC clearance to fly an ODP?",
+        "answer": "No. ODPs are recommended for obstruction clearance and may be flown without specific ATC clearance unless an alternate departure procedure (SID or radar vector) has been specifically assigned by ATC. (AIM 5-2-9)"
+    },
+    {
+        "id": 194,
+        "category": "Procedures",
+        "question": "You are cleared for an approach. Can you execute a Procedure Turn if 'NoPT' is depicted?",
+        "answer": "No. You must not execute a procedure turn if 'NoPT' is depicted, unless specifically cleared by ATC to do so. (14 CFR 91.175)"
+    },
+    {
+        "id": 195,
+        "category": "Procedures",
+        "question": "What is the 'Initial Approach Segment'?",
+        "answer": "The segment between the Initial Approach Fix (IAF) and the Intermediate Fix (IF) or the point where the aircraft is established on the intermediate course or final approach course. (AIM 5-4-5)"
+    },
+    {
+        "id": 196,
+        "category": "Procedures",
+        "question": "What is the 'Intermediate Approach Segment'?",
+        "answer": "The segment between the Intermediate Fix (IF) or point and the Final Approach Fix (FAF). It is designed to position the aircraft for the final descent to the airport. (AIM 5-4-5)"
+    },
+    {
+        "id": 197,
+        "category": "Procedures",
+        "question": "What is the 'Final Approach Segment'?",
+        "answer": "The segment between the Final Approach Fix (FAF) or point and the runway, airport, or missed approach point. (AIM 5-4-5)"
+    },
+    {
+        "id": 198,
+        "category": "Procedures",
+        "question": "What is the 'Missed Approach Segment'?",
+        "answer": "The segment between the Missed Approach Point (MAP) or the point of arrival at Decision Altitude (DA) and the missed approach fix at the prescribed altitude. (AIM 5-4-5)"
+    },
+    {
+        "id": 199,
+        "category": "Procedures",
+        "question": "What is a 'Circling Approach'?",
+        "answer": "A maneuver initiated by the pilot to align the aircraft with a runway for landing when a straight-in landing from an instrument approach is not possible or desirable. (AIM 5-4-20)"
+    },
+    {
+        "id": 200,
+        "category": "Procedures",
+        "question": "What is the required obstacle clearance for a Circling Approach?",
+        "answer": "300 feet of obstacle clearance within the circling approach area. (AIM 5-4-20)"
+    },
+    {
+        "id": 201,
+        "category": "Regulations",
+        "question": "What is the 'GRABCARD' acronym used for?",
+        "answer": "It lists the minimum equipment required for IFR flight (91.205(d)): Generator/Alternator, Radios (Nav/Com), Altimeter (sensitive), Ball (Slip/Skid), Clock (sweep second hand or digital), Attitude Indicator, Rate of Turn Indicator, Directional Gyro (Heading Indicator). (14 CFR 91.205)"
+    },
+    {
+        "id": 202,
+        "category": "Regulations",
+        "question": "You are preparing for an IFR flight and notice the clock in the aircraft is broken. Can you use your wristwatch instead?",
+        "answer": "No. The regulations require a clock installed in the aircraft with a sweep-second hand or digital presentation. (14 CFR 91.205(d)(6))"
+    },
+    {
+        "id": 203,
+        "category": "Regulations",
+        "question": "What documents must be on board the aircraft? (ARROW)",
+        "answer": "Airworthiness Certificate, Registration, Radio Station License (international only), Operating Limitations (POH/Placards), Weight and Balance data. (14 CFR 91.203)"
+    },
+    {
+        "id": 204,
+        "category": "Regulations",
+        "question": "How often must the Pitot-Static system be inspected for IFR flight?",
+        "answer": "Every 24 calendar months. (14 CFR 91.411)"
+    },
+    {
+        "id": 205,
+        "category": "Regulations",
+        "question": "How often must the Transponder be inspected?",
+        "answer": "Every 24 calendar months. (14 CFR 91.413)"
+    },
+    {
+        "id": 206,
+        "category": "Regulations",
+        "question": "How often must the ELT be inspected?",
+        "answer": "Every 12 calendar months. (14 CFR 91.207)"
+    },
+    {
+        "id": 207,
+        "category": "Regulations",
+        "question": "When must the ELT battery be replaced?",
+        "answer": "When the transmitter has been in use for more than 1 cumulative hour, or when 50% of its useful life has expired. (14 CFR 91.207)"
+    },
+    {
+        "id": 208,
+        "category": "Regulations",
+        "question": "You are flying IFR and your DME fails. You are at FL240. Can you continue?",
+        "answer": "If you are above FL240, DME is required if VOR navigation is used. If it fails, you must notify ATC immediately and you may continue to the next airport of intended landing where repairs or replacement can be made. (14 CFR 91.205(e))"
+    },
+    {
+        "id": 209,
+        "category": "Regulations",
+        "question": "What is the 'CRAFT' acronym for IFR clearances?",
+        "answer": "Clearance Limit, Route, Altitude, Frequency, Transponder code. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 210,
+        "category": "Regulations",
+        "question": "What is a 'Cruise Clearance'?",
+        "answer": "An ATC clearance that allows a pilot to conduct flight at any altitude from the minimum IFR altitude up to and including the altitude specified in the clearance. It also authorizes an approach at the destination. (AIM 4-4-3)"
+    },
+    {
+        "id": 211,
+        "category": "Flight Planning",
+        "question": "You are filing an IFR flight plan. What is the 'True Airspeed' you should list?",
+        "answer": "The TAS you expect to fly at your cruising altitude. (AIM 5-1-8)"
+    },
+    {
+        "id": 212,
+        "category": "Flight Planning",
+        "question": "What is the difference between 'EET' and 'ETA'?",
+        "answer": "EET (Estimated Enroute Time) is the duration of the flight. ETA (Estimated Time of Arrival) is the clock time you expect to arrive. (AIM 5-1-8)"
+    },
+    {
+        "id": 213,
+        "category": "Flight Planning",
+        "question": "You are planning a flight to an airport with only a GPS approach. Can you file it as an alternate?",
+        "answer": "Only if you have a WAAS GPS (TSO-C145/C146). If you have a non-WAAS GPS (TSO-C129/C196), you can file it as a destination or alternate, but not both. (AIM 1-1-18)"
+    },
+    {
+        "id": 214,
+        "category": "Flight Planning",
+        "question": "What is 'Fuel Starvation' vs 'Fuel Exhaustion'?",
+        "answer": "Fuel Starvation is when fuel is on board but cannot reach the engine (e.g., selector off). Fuel Exhaustion is running out of fuel completely. (PHAK)"
+    },
+    {
+        "id": 215,
+        "category": "Flight Planning",
+        "question": "What is the 'Service Ceiling' of an aircraft?",
+        "answer": "The altitude at which the maximum rate of climb is 100 feet per minute. (PHAK)"
+    },
+    {
+        "id": 216,
+        "category": "Flight Planning",
+        "question": "What is the 'Absolute Ceiling'?",
+        "answer": "The altitude at which the rate of climb is zero. (PHAK)"
+    },
+    {
+        "id": 217,
+        "category": "Flight Planning",
+        "question": "You are calculating takeoff performance. What factors increase takeoff distance?",
+        "answer": "High density altitude, heavy weight, tailwind, upslope runway, rough/wet runway surface. (PHAK)"
+    },
+    {
+        "id": 218,
+        "category": "Flight Planning",
+        "question": "What is 'Density Altitude'?",
+        "answer": "Pressure altitude corrected for non-standard temperature. It is the altitude the aircraft 'feels' like it is flying at. (PHAK)"
+    },
+    {
+        "id": 219,
+        "category": "Flight Planning",
+        "question": "How does high humidity affect density altitude?",
+        "answer": "It increases density altitude (decreases performance) because water vapor is lighter than dry air, making the air less dense. (PHAK)"
+    },
+    {
+        "id": 220,
+        "category": "Flight Planning",
+        "question": "What is 'Pressure Altitude'?",
+        "answer": "The height above the Standard Datum Plane (29.92 Hg). It is what the altimeter reads when set to 29.92. (PHAK)"
+    },
+    {
+        "id": 221,
+        "category": "Weather",
+        "question": "What are 'Lenticular Clouds'?",
+        "answer": "Almond or lens-shaped clouds usually found on the leeward side of a mountain range. They indicate strong winds and severe turbulence (mountain wave). (AC 00-6B)"
+    },
+    {
+        "id": 222,
+        "category": "Weather",
+        "question": "What is 'Mountain Wave Turbulence'?",
+        "answer": "Turbulence caused by strong winds blowing perpendicular to a mountain range. It can extend for hundreds of miles downwind and thousands of feet above the peaks. (AC 00-6B)"
+    },
+    {
+        "id": 223,
+        "category": "Weather",
+        "question": "What is the definition of a 'Ceiling'?",
+        "answer": "The height above the earth's surface of the lowest layer of clouds or obscuring phenomena reported as 'Broken', 'Overcast', or 'Obscuration', and not classified as 'Thin' or 'Partial'. (AIM 7-1-16)"
+    },
+    {
+        "id": 224,
+        "category": "Weather",
+        "question": "What is 'VV' in a METAR?",
+        "answer": "Vertical Visibility. It is an indefinite ceiling, usually caused by fog or heavy precipitation obscuring the sky. (AC 00-45H)"
+    },
+    {
+        "id": 225,
+        "category": "Weather",
+        "question": "What is 'Dew Point'?",
+        "answer": "The temperature to which air must be cooled to become saturated (100% relative humidity). (AC 00-6B)"
+    },
+    {
+        "id": 226,
+        "category": "Weather",
+        "question": "What is 'Relative Humidity'?",
+        "answer": "The ratio of the amount of water vapor actually present in the air to the amount it could hold if saturated at that temperature. (AC 00-6B)"
+    },
+    {
+        "id": 227,
+        "category": "Weather",
+        "question": "What is 'Sublimation'?",
+        "answer": "The process of ice changing directly to water vapor without passing through the liquid state. (AC 00-6B)"
+    },
+    {
+        "id": 228,
+        "category": "Weather",
+        "question": "What is 'Deposition'?",
+        "answer": "The process of water vapor changing directly to ice without passing through the liquid state. (AC 00-6B)"
+    },
+    {
+        "id": 229,
+        "category": "Weather",
+        "question": "What is 'Isobar'?",
+        "answer": "A line connecting points of equal atmospheric pressure. (AC 00-6B)"
+    },
+    {
+        "id": 230,
+        "category": "Weather",
+        "question": "What is a 'Trough'?",
+        "answer": "An elongated area of low pressure. It is associated with rising air and bad weather. (AC 00-6B)"
+    },
+    {
+        "id": 231,
+        "category": "Weather",
+        "question": "What is a 'Ridge'?",
+        "answer": "An elongated area of high pressure. It is associated with sinking air and good weather. (AC 00-6B)"
+    },
+    {
+        "id": 232,
+        "category": "Navigation",
+        "question": "What is 'Cone of Confusion'?",
+        "answer": "The area directly above a VOR station where the signal is unreliable or lost. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 233,
+        "category": "Navigation",
+        "question": "What is 'Zone of Ambiguity'?",
+        "answer": "The area 90 degrees to the selected course where the To/From indicator changes. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 234,
+        "category": "Navigation",
+        "question": "What is 'Pseudo-Range'?",
+        "answer": "The calculated distance between a GPS satellite and the receiver, which contains clock errors. (AIM 1-1-17)"
+    },
+    {
+        "id": 235,
+        "category": "Navigation",
+        "question": "How many satellites are required for 2D position (Lat/Long)?",
+        "answer": "3 satellites. (AIM 1-1-17)"
+    },
+    {
+        "id": 236,
+        "category": "Navigation",
+        "question": "How many satellites are required for 3D position (Lat/Long/Alt)?",
+        "answer": "4 satellites. (AIM 1-1-17)"
+    },
+    {
+        "id": 237,
+        "category": "Navigation",
+        "question": "How many satellites are required for RAIM?",
+        "answer": "5 satellites (or 4 with baro-aiding). (AIM 1-1-17)"
+    },
+    {
+        "id": 238,
+        "category": "Navigation",
+        "question": "How many satellites are required to isolate a corrupt satellite signal (Fault Detection and Exclusion)?",
+        "answer": "6 satellites (or 5 with baro-aiding). (AIM 1-1-17)"
+    },
+    {
+        "id": 239,
+        "category": "Navigation",
+        "question": "What is 'Trilateration'?",
+        "answer": "The mathematical process used by GPS receivers to determine position by measuring distances from satellites. (AIM 1-1-17)"
+    },
+    {
+        "id": 240,
+        "category": "Navigation",
+        "question": "What is 'Differential GPS' (DGPS)?",
+        "answer": "A system that provides accuracy enhancement to GPS signals by using a network of ground-based reference stations (e.g., WAAS). (AIM 1-1-18)"
+    },
+    {
+        "id": 241,
+        "category": "Procedures",
+        "question": "What is a 'Composite Approach'?",
+        "answer": "An approach that uses multiple navigation systems (e.g., VOR/DME or TACAN) to define the final approach course. (Instrument Procedures Handbook)"
+    },
+    {
+        "id": 242,
+        "category": "Procedures",
+        "question": "What is a 'Side-Step Maneuver'?",
+        "answer": "A visual maneuver accomplished by a pilot at the completion of an instrument approach to permit a straight-in landing on a parallel runway not more than 1,200 feet to either side of the runway to which the instrument approach was conducted. (AIM 5-4-19)"
+    },
+    {
+        "id": 243,
+        "category": "Procedures",
+        "question": "When can you begin a Side-Step Maneuver?",
+        "answer": "As soon as possible after the runway or runway environment is in sight. (AIM 5-4-19)"
+    },
+    {
+        "id": 244,
+        "category": "Procedures",
+        "question": "What minimums apply to a Side-Step Maneuver?",
+        "answer": "The published minimums for the side-step maneuver (usually higher than the straight-in minimums). (AIM 5-4-19)"
+    },
+    {
+        "id": 245,
+        "category": "Procedures",
+        "question": "What is a 'Visual Approach'?",
+        "answer": "An approach conducted on an IFR flight plan which authorizes the pilot to proceed visually and clear of clouds to the airport. The pilot must have either the airport or the preceding aircraft in sight. (AIM 5-4-23)"
+    },
+    {
+        "id": 246,
+        "category": "Procedures",
+        "question": "What is the difference between a Visual Approach and a Contact Approach?",
+        "answer": "Visual Approach: Initiated by ATC or Pilot, requires 1000/3 weather, airport/traffic in sight. Contact Approach: Initiated by Pilot ONLY, requires 1 SM visibility and clear of clouds, airport does not need to be in sight (just ground contact). (AIM 5-4-23, 5-4-25)"
+    },
+    {
+        "id": 247,
+        "category": "Procedures",
+        "question": "You are on a Visual Approach. Who is responsible for wake turbulence separation?",
+        "answer": "The pilot is responsible for maintaining safe separation from the preceding aircraft and wake turbulence avoidance. (AIM 5-4-23)"
+    },
+    {
+        "id": 248,
+        "category": "Procedures",
+        "question": "What is 'PAR'?",
+        "answer": "Precision Approach Radar. A controller provides highly accurate azimuth and elevation guidance to the pilot. (AIM 5-4-11)"
+    },
+    {
+        "id": 249,
+        "category": "Procedures",
+        "question": "What is 'ASR'?",
+        "answer": "Airport Surveillance Radar approach. A non-precision approach where the controller provides azimuth guidance only. (AIM 5-4-11)"
+    },
+    {
+        "id": 250,
+        "category": "Procedures",
+        "question": "What is the 'Touchdown Zone'?",
+        "answer": "The first 3,000 feet of the runway beginning at the threshold. (AIM 1-1-9)"
+    },
+    {
+        "id": 251,
+        "category": "Procedures",
+        "question": "What is the maximum holding speed at 6,000 feet MSL and below?",
+        "answer": "200 KIAS. (AIM 5-3-8)"
+    },
+    {
+        "id": 252,
+        "category": "Procedures",
+        "question": "What is the maximum holding speed from 6,001 feet to 14,000 feet MSL?",
+        "answer": "230 KIAS. (AIM 5-3-8)"
+    },
+    {
+        "id": 253,
+        "category": "Procedures",
+        "question": "What is the maximum holding speed above 14,000 feet MSL?",
+        "answer": "265 KIAS. (AIM 5-3-8)"
+    },
+    {
+        "id": 254,
+        "category": "Procedures",
+        "question": "What are the three standard holding pattern entry procedures?",
+        "answer": "Direct, Parallel, and Teardrop. (AIM 5-3-8)"
+    },
+    {
+        "id": 255,
+        "category": "Procedures",
+        "question": "You are flying a Direct entry to a hold. How do you enter?",
+        "answer": "Fly directly to the fix and turn to follow the holding pattern. (AIM 5-3-8)"
+    },
+    {
+        "id": 256,
+        "category": "Procedures",
+        "question": "You are flying a Parallel entry to a hold. How do you enter?",
+        "answer": "Fly to the fix, turn to a heading to parallel the holding course outbound on the non-holding side for 1 minute, then turn in the direction of the holding pattern through more than 180 degrees to intercept the inbound course. (AIM 5-3-8)"
+    },
+    {
+        "id": 257,
+        "category": "Procedures",
+        "question": "You are flying a Teardrop entry to a hold. How do you enter?",
+        "answer": "Fly to the fix, turn outbound to a heading for a 30 degree teardrop entry within the pattern (on the holding side) for 1 minute, then turn in the direction of the holding pattern to intercept the inbound course. (AIM 5-3-8)"
+    },
+    {
+        "id": 258,
+        "category": "Procedures",
+        "question": "What is the standard leg length for a holding pattern below 14,000 feet?",
+        "answer": "1 minute inbound. (AIM 5-3-8)"
+    },
+    {
+        "id": 259,
+        "category": "Procedures",
+        "question": "What is the standard leg length for a holding pattern above 14,000 feet?",
+        "answer": "1.5 minutes inbound. (AIM 5-3-8)"
+    },
+    {
+        "id": 260,
+        "category": "Procedures",
+        "question": "When do you start timing the outbound leg in a hold?",
+        "answer": "Over or abeam the fix, whichever occurs later. If the abeam position cannot be determined, start timing when the turn to outbound is completed. (AIM 5-3-8)"
+    },
+    {
+        "id": 261,
+        "category": "Procedures",
+        "question": "What is a 'DME Arc'?",
+        "answer": "A flight track that is a constant distance from a station. It is flown by flying a series of short straight legs to maintain the arc distance. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 262,
+        "category": "Procedures",
+        "question": "How do you correct for wind drift when flying a DME Arc?",
+        "answer": "Turn 10-20 degrees toward the station if drifting out, or maintain heading/turn slightly away if drifting in. The goal is to keep the DME distance constant. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 263,
+        "category": "Emergencies",
+        "question": "You are IFR and lose two-way communications. What route do you fly? (AVE F)",
+        "answer": "Assigned, Vectored, Expected, Filed (in that order of preference). (14 CFR 91.185)"
+    },
+    {
+        "id": 264,
+        "category": "Emergencies",
+        "question": "You are IFR and lose two-way communications. What altitude do you fly? (MEA)",
+        "answer": "The highest of: Minimum IFR altitude (MEA), Expected altitude, or Assigned altitude. (14 CFR 91.185)"
+    },
+    {
+        "id": 265,
+        "category": "Emergencies",
+        "question": "You are IFR, lost comms, and the clearance limit is a fix from which an approach begins. When do you start the approach?",
+        "answer": "Start descent and approach as close as possible to the EFC time if one was received, or if no EFC time was received, as close as possible to the ETA as calculated from the filed or amended (with ATC) ETE. (14 CFR 91.185)"
+    },
+    {
+        "id": 266,
+        "category": "Emergencies",
+        "question": "You are IFR, lost comms, and the clearance limit is NOT a fix from which an approach begins. What do you do?",
+        "answer": "Leave the clearance limit at the EFC time (if received), or if no EFC, proceed to a fix from which an approach begins and commence descent and approach as close as possible to the ETA. (14 CFR 91.185)"
+    },
+    {
+        "id": 267,
+        "category": "Emergencies",
+        "question": "What is 'Hypoxia'?",
+        "answer": "A state of oxygen deficiency in the body sufficient to impair functions of the brain and other organs. (AIM 8-1-2)"
+    },
+    {
+        "id": 268,
+        "category": "Emergencies",
+        "question": "What are the four types of Hypoxia?",
+        "answer": "Hypoxic (altitude), Hypemic (blood/CO), Stagnant (G-forces), Histotoxic (alcohol/drugs). (AIM 8-1-2)"
+    },
+    {
+        "id": 269,
+        "category": "Emergencies",
+        "question": "What are the symptoms of Hypoxia?",
+        "answer": "Cyanosis (blue lips/fingernails), euphoria, headache, impaired judgment, visual impairment, drowsiness. (AIM 8-1-2)"
+    },
+    {
+        "id": 270,
+        "category": "Emergencies",
+        "question": "What is 'Hyperventilation'?",
+        "answer": "An abnormal increase in the rate and depth of breathing that leads to an excessive loss of carbon dioxide from the blood. Symptoms are similar to hypoxia but include tingling in extremities. (AIM 8-1-3)"
+    },
+    {
+        "id": 271,
+        "category": "Emergencies",
+        "question": "How do you treat Hyperventilation?",
+        "answer": "Slow the breathing rate, breathe into a paper bag, or talk aloud. (AIM 8-1-3)"
+    },
+    {
+        "id": 272,
+        "category": "Emergencies",
+        "question": "What is 'Carbon Monoxide Poisoning'?",
+        "answer": "A form of Hypemic hypoxia caused by inhaling CO gas (e.g., from exhaust leaks). It prevents blood from carrying oxygen. (AIM 8-1-2)"
+    },
+    {
+        "id": 273,
+        "category": "Emergencies",
+        "question": "What should you do if you suspect Carbon Monoxide in the cockpit?",
+        "answer": "Turn off the heater, open fresh air vents/windows, and use supplemental oxygen if available. Land as soon as practical. (AIM 8-1-2)"
+    },
+    {
+        "id": 274,
+        "category": "Human Factors",
+        "question": "What is 'Spatial Disorientation'?",
+        "answer": "The inability of a pilot to correctly determine their aircraft's attitude, altitude, or airspeed in relation to the earth or other significant points of reference. (AIM 8-1-5)"
+    },
+    {
+        "id": 275,
+        "category": "Human Factors",
+        "question": "What is the 'Leans' illusion?",
+        "answer": "A false sensation of banking when the aircraft is actually level, caused by a sudden return to level flight after a prolonged, gradual turn that was not detected by the inner ear. (AIM 8-1-5)"
+    },
+    {
+        "id": 276,
+        "category": "Human Factors",
+        "question": "What is the 'Coriolis' illusion?",
+        "answer": "A sensation of tumbling or rotating caused by moving the head abruptly during a constant-rate turn. It can be very disorienting. (AIM 8-1-5)"
+    },
+    {
+        "id": 277,
+        "category": "Human Factors",
+        "question": "What is the 'Graveyard Spiral'?",
+        "answer": "A pilot in a prolonged constant-rate turn may feel they are not turning. If they level the wings, they may feel they are turning the other way and re-enter the turn, losing altitude and increasing speed. (AIM 8-1-5)"
+    },
+    {
+        "id": 278,
+        "category": "Human Factors",
+        "question": "What is the 'Somatogravic' illusion?",
+        "answer": "A rapid acceleration (takeoff) creates a sensation of being in a nose-up attitude, leading the pilot to push the nose down. A rapid deceleration feels like a nose-down attitude. (AIM 8-1-5)"
+    },
+    {
+        "id": 279,
+        "category": "Human Factors",
+        "question": "What is the 'Inversion' illusion?",
+        "answer": "An abrupt change from climb to straight-and-level flight can create a sensation of tumbling backwards. (AIM 8-1-5)"
+    },
+    {
+        "id": 280,
+        "category": "Human Factors",
+        "question": "What is the 'Elevator' illusion?",
+        "answer": "An abrupt upward vertical acceleration (updraft) can create a sensation of being in a climb, leading the pilot to push the nose down. (AIM 8-1-5)"
+    },
+    {
+        "id": 281,
+        "category": "Human Factors",
+        "question": "What is the 'False Horizon' illusion?",
+        "answer": "A sloping cloud formation, obscured horizon, or dark scene with ground lights can create a false visual horizon. (AIM 8-1-5)"
+    },
+    {
+        "id": 282,
+        "category": "Human Factors",
+        "question": "What is 'Autokinesis'?",
+        "answer": "A stationary light viewed against a dark background for a few seconds may appear to move. (AIM 8-1-5)"
+    },
+    {
+        "id": 283,
+        "category": "Weather",
+        "question": "What is a 'SIGMET' (WS)?",
+        "answer": "Significant Meteorological Information. A weather advisory concerning weather significant to the safety of all aircraft. Includes severe icing, severe/extreme turbulence, dust storms, sandstorms, volcanic ash. (AIM 7-1-6)"
+    },
+    {
+        "id": 284,
+        "category": "Weather",
+        "question": "What is a 'Convective SIGMET' (WST)?",
+        "answer": "An advisory for hazardous convective weather that affects the safety of every flight. Includes severe thunderstorms, embedded thunderstorms, line of thunderstorms, hail >= 3/4 inch, tornadoes. (AIM 7-1-6)"
+    },
+    {
+        "id": 285,
+        "category": "Weather",
+        "question": "What is an 'AIRMET' (WA)?",
+        "answer": "Airmen's Meteorological Information. An advisory of significant weather phenomena but of lower intensities than SIGMETs. Intended for all pilots but primarily for small aircraft. (AIM 7-1-6)"
+    },
+    {
+        "id": 286,
+        "category": "Weather",
+        "question": "What are the three types of AIRMETs?",
+        "answer": "Sierra (IFR conditions/mountain obscuration), Tango (Turbulence/winds > 30kts), Zulu (Icing/freezing levels). (AIM 7-1-6)"
+    },
+    {
+        "id": 287,
+        "category": "Weather",
+        "question": "What is 'Light Turbulence'?",
+        "answer": "Turbulence that momentarily causes slight, erratic changes in altitude and/or attitude. Occupants may feel a slight strain against seat belts. (AIM 7-1-23)"
+    },
+    {
+        "id": 288,
+        "category": "Weather",
+        "question": "What is 'Moderate Turbulence'?",
+        "answer": "Turbulence that is similar to Light Turbulence but of greater intensity. Changes in altitude/attitude occur but the aircraft remains in positive control at all times. Variations in indicated airspeed occur. (AIM 7-1-23)"
+    },
+    {
+        "id": 289,
+        "category": "Weather",
+        "question": "What is 'Severe Turbulence'?",
+        "answer": "Turbulence that causes large, abrupt changes in altitude and/or attitude. It usually causes large variations in indicated airspeed. Aircraft control may be momentarily lost. (AIM 7-1-23)"
+    },
+    {
+        "id": 290,
+        "category": "Weather",
+        "question": "What is 'Extreme Turbulence'?",
+        "answer": "Turbulence in which the aircraft is violently tossed about and is practically impossible to control. It may cause structural damage. (AIM 7-1-23)"
+    },
+    {
+        "id": 291,
+        "category": "Weather",
+        "question": "What is 'Trace Icing'?",
+        "answer": "Ice becomes perceptible. Rate of accumulation is slightly greater than the rate of sublimation. De-icing/anti-icing equipment is not utilized unless encountered for an extended period of time (over 1 hour). (AIM 7-1-21)"
+    },
+    {
+        "id": 292,
+        "category": "Weather",
+        "question": "What is 'Light Icing'?",
+        "answer": "The rate of accumulation may create a problem if flight is prolonged in this environment (over 1 hour). Occasional use of de-icing/anti-icing equipment removes/prevents accumulation. (AIM 7-1-21)"
+    },
+    {
+        "id": 293,
+        "category": "Weather",
+        "question": "What is 'Moderate Icing'?",
+        "answer": "The rate of accumulation is such that even short encounters become potentially hazardous and use of de-icing/anti-icing equipment or flight diversion is necessary. (AIM 7-1-21)"
+    },
+    {
+        "id": 294,
+        "category": "Weather",
+        "question": "What is 'Severe Icing'?",
+        "answer": "The rate of accumulation is such that de-icing/anti-icing equipment fails to reduce or control the hazard. Immediate flight diversion is necessary. (AIM 7-1-21)"
+    },
+    {
+        "id": 295,
+        "category": "Regulations",
+        "question": "What is the 'VDP'?",
+        "answer": "Visual Descent Point. A defined point on the final approach course of a non-precision straight-in approach procedure from which normal descent from the MDA to the runway touchdown point may be commenced. (AIM 5-4-5)"
+    },
+    {
+        "id": 296,
+        "category": "Regulations",
+        "question": "Can you descend below the MDA before the VDP?",
+        "answer": "You should not descend below the MDA prior to reaching the VDP. However, regulations do not explicitly prohibit it if you have the visual references, but it is considered unsafe as obstacle clearance is not guaranteed below MDA before VDP. (AIM 5-4-5)"
+    },
+    {
+        "id": 297,
+        "category": "Regulations",
+        "question": "What is 'Contact Approach' visibility requirement?",
+        "answer": "1 SM flight visibility and clear of clouds. (AIM 5-4-25)"
+    },
+    {
+        "id": 298,
+        "category": "Regulations",
+        "question": "What is 'Visual Approach' weather requirement?",
+        "answer": "1,000 foot ceiling and 3 SM visibility (VFR conditions). (AIM 5-4-23)"
+    },
+    {
+        "id": 299,
+        "category": "Regulations",
+        "question": "What is the 'MAA'?",
+        "answer": "Maximum Authorized Altitude. The highest altitude on a Federal airway, jet route, or RNAV low or high route for which an MEA is designated. (AIM 5-3-4)"
+    },
+    {
+        "id": 300,
+        "category": "Regulations",
+        "question": "What is the 'MCA'?",
+        "answer": "Minimum Crossing Altitude. The lowest altitude at certain fixes at which an aircraft must cross when proceeding in the direction of a higher MEA. (AIM 5-3-4)"
+    },
+    {
+        "id": 301,
+        "category": "Human Factors",
+        "question": "What is the 'IMSAFE' checklist?",
+        "answer": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion. Used to assess pilot fitness for flight. (AIM 8-1-1)"
+    },
+    {
+        "id": 302,
+        "category": "Human Factors",
+        "question": "What is the 'PAVE' checklist?",
+        "answer": "Pilot, Aircraft, enVironment, External pressures. Used for pre-flight risk assessment. (Risk Management Handbook)"
+    },
+    {
+        "id": 303,
+        "category": "Human Factors",
+        "question": "What is the 'DECIDE' model?",
+        "answer": "Detect, Estimate, Choose, Identify, Do, Evaluate. A continuous loop for aeronautical decision making. (Risk Management Handbook)"
+    },
+    {
+        "id": 304,
+        "category": "Human Factors",
+        "question": "What is the '5 Ps' model?",
+        "answer": "Plan, Plane, Pilot, Passengers, Programming. Used for single-pilot resource management (SRM). (Risk Management Handbook)"
+    },
+    {
+        "id": 305,
+        "category": "Human Factors",
+        "question": "What is 'Acute Fatigue'?",
+        "answer": "Short-term fatigue caused by physical or mental strain (e.g., a long flight). It is cured by rest and sleep. (AIM 8-1-1)"
+    },
+    {
+        "id": 306,
+        "category": "Human Factors",
+        "question": "What is 'Chronic Fatigue'?",
+        "answer": "Long-term fatigue caused by accumulated stress or lack of sleep. It requires medical attention and prolonged rest. (AIM 8-1-1)"
+    },
+    {
+        "id": 307,
+        "category": "Human Factors",
+        "question": "What is 'Nitrogen Narcosis'?",
+        "answer": "A condition caused by breathing nitrogen at high pressure (e.g., scuba diving). It can cause symptoms similar to alcohol intoxication. (AIM 8-1-2)"
+    },
+    {
+        "id": 308,
+        "category": "Human Factors",
+        "question": "What are the waiting times after Scuba Diving before flying?",
+        "answer": "Flight up to 8,000 ft: 12 hours (no decompression stop), 24 hours (decompression stop). Flight above 8,000 ft: 24 hours. (AIM 8-1-2)"
+    },
+    {
+        "id": 309,
+        "category": "Human Factors",
+        "question": "What is 'Empty Field Myopia'?",
+        "answer": "When looking at a featureless sky, the eyes tend to focus only 10-30 feet ahead, making it difficult to spot traffic. (AIM 8-1-6)"
+    },
+    {
+        "id": 310,
+        "category": "Human Factors",
+        "question": "What is the 'Runway Width Illusion'?",
+        "answer": "A narrower-than-usual runway can create the illusion that the aircraft is higher than it actually is, leading to a lower approach. A wider runway creates the opposite effect. (AIM 8-1-5)"
+    },
+    {
+        "id": 311,
+        "category": "Human Factors",
+        "question": "What is the 'Runway Slope Illusion'?",
+        "answer": "An upsloping runway can create the illusion that the aircraft is higher than it actually is, leading to a lower approach. A downsloping runway creates the opposite effect. (AIM 8-1-5)"
+    },
+    {
+        "id": 312,
+        "category": "Human Factors",
+        "question": "What is 'Featureless Terrain Illusion' (Black Hole Approach)?",
+        "answer": "Flying over water or dark terrain can create the illusion that the aircraft is higher than it actually is, leading to a lower approach. (AIM 8-1-5)"
+    },
+    {
+        "id": 313,
+        "category": "Navigation",
+        "question": "What is 'RNP'?",
+        "answer": "Required Navigation Performance. A statement of the navigation performance accuracy necessary for operation within a defined airspace. (AIM 1-2-1)"
+    },
+    {
+        "id": 314,
+        "category": "Navigation",
+        "question": "What is the difference between RNAV and RNP?",
+        "answer": "RNP requires on-board performance monitoring and alerting (OBPMA), while RNAV does not. (AIM 1-2-1)"
+    },
+    {
+        "id": 315,
+        "category": "Navigation",
+        "question": "What is 'RNP 0.3'?",
+        "answer": "A navigation specification requiring 0.3 NM accuracy 95% of the time. Typically used for RNP approaches. (AIM 1-2-2)"
+    },
+    {
+        "id": 316,
+        "category": "Navigation",
+        "question": "What is 'RNP 1.0'?",
+        "answer": "Used for Terminal operations (SIDs/STARs). (AIM 1-2-2)"
+    },
+    {
+        "id": 317,
+        "category": "Navigation",
+        "question": "What is 'RNP 2.0'?",
+        "answer": "Used for Enroute operations. (AIM 1-2-2)"
+    },
+    {
+        "id": 318,
+        "category": "Navigation",
+        "question": "What is 'GBAS'?",
+        "answer": "Ground Based Augmentation System. A local area augmentation system (LAAS) that provides differential corrections to GPS for precision approaches (GLS). (AIM 1-1-19)"
+    },
+    {
+        "id": 319,
+        "category": "Navigation",
+        "question": "What is a 'Fly-By' waypoint?",
+        "answer": "A waypoint that requires the use of turn anticipation to avoid overshoot of the next flight segment. (AIM 1-2-1)"
+    },
+    {
+        "id": 320,
+        "category": "Navigation",
+        "question": "What is a 'Fly-Over' waypoint?",
+        "answer": "A waypoint that precludes any turn until the waypoint is overflown and is followed by an intercept maneuver of the next flight segment. Depicted with a circle around the waypoint symbol. (AIM 1-2-1)"
+    },
+    {
+        "id": 321,
+        "category": "Navigation",
+        "question": "What is 'T-Route'?",
+        "answer": "Low altitude RNAV route (1,200 AGL up to but not including 18,000 MSL). Depicted in blue on Low Enroute Charts. (AIM 5-3-4)"
+    },
+    {
+        "id": 322,
+        "category": "Navigation",
+        "question": "What is 'Q-Route'?",
+        "answer": "High altitude RNAV route (18,000 MSL to FL450). Depicted in blue on High Enroute Charts. (AIM 5-3-4)"
+    },
+    {
+        "id": 323,
+        "category": "Charts",
+        "question": "What does a 'Black Triangle' with a 'A' in it mean on an approach chart?",
+        "answer": "Non-standard Alternate Minimums apply. (Chart User's Guide)"
+    },
+    {
+        "id": 324,
+        "category": "Charts",
+        "question": "What does a 'Black Triangle' with a 'T' in it mean on an approach chart?",
+        "answer": "Non-standard Takeoff Minimums and/or Departure Procedures apply. (Chart User's Guide)"
+    },
+    {
+        "id": 325,
+        "category": "Charts",
+        "question": "What does 'C' in a black square mean on an approach chart?",
+        "answer": "Expanded Circling Approach maneuvering airspace radius. (Chart User's Guide)"
+    },
+    {
+        "id": 326,
+        "category": "Charts",
+        "question": "What does a 'Lightning Bolt' symbol indicate on an approach chart?",
+        "answer": "The Glideslope Intercept Altitude for a precision approach. (Chart User's Guide)"
+    },
+    {
+        "id": 327,
+        "category": "Charts",
+        "question": "What does a 'Maltese Cross' symbol indicate on an approach chart?",
+        "answer": "The Final Approach Fix (FAF) for a non-precision approach. (Chart User's Guide)"
+    },
+    {
+        "id": 328,
+        "category": "Charts",
+        "question": "What does '(H)' in the VOR frequency box indicate?",
+        "answer": "High Altitude VOR. (Chart User's Guide)"
+    },
+    {
+        "id": 329,
+        "category": "Charts",
+        "question": "What does '(L)' in the VOR frequency box indicate?",
+        "answer": "Low Altitude VOR. (Chart User's Guide)"
+    },
+    {
+        "id": 330,
+        "category": "Charts",
+        "question": "What does '(T)' in the VOR frequency box indicate?",
+        "answer": "Terminal VOR. (Chart User's Guide)"
+    },
+    {
+        "id": 331,
+        "category": "Charts",
+        "question": "What does a 'Flag' with an 'X' in it mean on an airway?",
+        "answer": "Minimum Crossing Altitude (MCA). (Chart User's Guide)"
+    },
+    {
+        "id": 332,
+        "category": "Charts",
+        "question": "What does a 'Flag' with an 'R' in it mean on an airway?",
+        "answer": "Minimum Reception Altitude (MRA). (Chart User's Guide)"
+    },
+    {
+        "id": 333,
+        "category": "Charts",
+        "question": "What is the 'Brown' airport symbol on an IFR Enroute Chart?",
+        "answer": "An airport without a published instrument approach procedure. (Chart User's Guide)"
+    },
+    {
+        "id": 334,
+        "category": "Charts",
+        "question": "What is the 'Blue' or 'Green' airport symbol on an IFR Enroute Chart?",
+        "answer": "An airport with a published instrument approach procedure. Blue/Green indicates DoD usage (Blue=High, Green=Low/High). (Chart User's Guide)"
+    },
+    {
+        "id": 335,
+        "category": "Charts",
+        "question": "What does a 'Star' symbol next to the airport beacon indicate?",
+        "answer": "Part-time or pilot-controlled lighting. (Chart User's Guide)"
+    },
+    {
+        "id": 336,
+        "category": "Regulations",
+        "question": "What is 'VFR-on-Top'?",
+        "answer": "An IFR clearance that allows a pilot to fly at a VFR altitude of their choice (appropriate for direction of flight) while remaining in VFR conditions. The pilot must comply with VFR visibility and cloud clearance requirements but is still on an IFR flight plan. (AIM 5-5-13)"
+    },
+    {
+        "id": 337,
+        "category": "Regulations",
+        "question": "Can you fly 'VFR-on-Top' in Class A airspace?",
+        "answer": "No. (AIM 5-5-13)"
+    },
+    {
+        "id": 338,
+        "category": "Regulations",
+        "question": "What is 'VFR over the Top'?",
+        "answer": "A VFR operation in which an aircraft operates in VFR conditions on top of an undercast. It is NOT an IFR clearance. (14 CFR Part 1)"
+    },
+    {
+        "id": 339,
+        "category": "Regulations",
+        "question": "What is a 'Composite Flight Plan'?",
+        "answer": "A flight plan that specifies VFR operation for one portion of the flight and IFR for another portion. (AIM 5-1-7)"
+    },
+    {
+        "id": 340,
+        "category": "Regulations",
+        "question": "What is the 'DVFR' flight plan?",
+        "answer": "Defense VFR. Required for VFR flights into the ADIZ. (AIM 5-6-1)"
+    },
+    {
+        "id": 341,
+        "category": "Regulations",
+        "question": "What is the 'ADIZ'?",
+        "answer": "Air Defense Identification Zone. An area of airspace over land or water, extending upward from the surface, within which the ready identification, the location, and the control of aircraft are required in the interest of national security. (14 CFR 99)"
+    },
+    {
+        "id": 342,
+        "category": "Regulations",
+        "question": "What are the requirements to enter the ADIZ?",
+        "answer": "File a DVFR or IFR flight plan, have a two-way radio, have a Mode C transponder, and make position reports. (AIM 5-6-1)"
+    },
+    {
+        "id": 343,
+        "category": "Regulations",
+        "question": "What is 'SVFR'?",
+        "answer": "Special VFR. A clearance to operate within a Control Zone (Class B, C, D, E surface area) in weather conditions below basic VFR minima. Requires 1 SM visibility and clear of clouds. (14 CFR 91.157)"
+    },
+    {
+        "id": 344,
+        "category": "Regulations",
+        "question": "Can you get SVFR at night?",
+        "answer": "Only if the pilot is instrument rated and the aircraft is instrument equipped. (14 CFR 91.157)"
+    },
+    {
+        "id": 345,
+        "category": "Regulations",
+        "question": "Who can request SVFR?",
+        "answer": "Only the pilot. ATC cannot offer it. (AIM 4-4-6)"
+    },
+    {
+        "id": 346,
+        "category": "Regulations",
+        "question": "What is 'Basic VFR' weather minimums?",
+        "answer": "1,000 foot ceiling and 3 SM visibility. (14 CFR 91.155)"
+    },
+    {
+        "id": 347,
+        "category": "Regulations",
+        "question": "What is the 'Mode C Veil'?",
+        "answer": "The airspace within 30 NM of a Class B airport primary airport, from the surface up to 10,000 feet MSL. Mode C transponder is required. (14 CFR 91.215)"
+    },
+    {
+        "id": 348,
+        "category": "Regulations",
+        "question": "What is 'Class A' airspace dimensions?",
+        "answer": "From 18,000 feet MSL up to and including FL600. (AIM 3-2-2)"
+    },
+    {
+        "id": 349,
+        "category": "Regulations",
+        "question": "What are the requirements for Class A airspace?",
+        "answer": "IFR flight plan, IFR clearance, Instrument Rating, Two-way radio, Mode C transponder, DME (above FL240). (14 CFR 91.135)"
+    },
+    {
+        "id": 350,
+        "category": "Regulations",
+        "question": "What is the speed limit in Class B airspace?",
+        "answer": "250 KIAS (below 10,000 MSL). (14 CFR 91.117)"
+    },
+    {
+        "id": 351,
+        "category": "Weather",
+        "question": "What does a 'Hook Echo' on a weather radar indicate?",
+        "answer": "It indicates the possible presence of a tornado. (AC 00-45H)"
+    },
+    {
+        "id": 352,
+        "category": "Weather",
+        "question": "What is 'Attenuation' in weather radar?",
+        "answer": "The weakening of the radar signal as it passes through heavy precipitation, which can mask storms behind the initial area of precipitation. (AC 00-45H)"
+    },
+    {
+        "id": 353,
+        "category": "Weather",
+        "question": "What is the difference between 'Base Reflectivity' and 'Composite Reflectivity'?",
+        "answer": "Base Reflectivity shows echoes at a specific tilt angle (usually the lowest). Composite Reflectivity shows the highest echo intensity from all tilt angles above a point. (AC 00-45H)"
+    },
+    {
+        "id": 354,
+        "category": "Weather",
+        "question": "What is 'Visible Satellite Imagery' useful for?",
+        "answer": "Identifying clouds by their texture and shape (e.g., cumulus vs stratus) during daylight hours. It relies on reflected sunlight. (AC 00-45H)"
+    },
+    {
+        "id": 355,
+        "category": "Weather",
+        "question": "What is 'Infrared (IR) Satellite Imagery' useful for?",
+        "answer": "Determining cloud top temperatures (and thus height) day or night. Colder tops are usually higher. (AC 00-45H)"
+    },
+    {
+        "id": 356,
+        "category": "Weather",
+        "question": "What is 'Water Vapor Satellite Imagery' useful for?",
+        "answer": "Showing the distribution of moisture in the upper atmosphere. It is useful for identifying jet streams and high-level moisture, even without clouds. (AC 00-45H)"
+    },
+    {
+        "id": 357,
+        "category": "Weather",
+        "question": "What is the 'Tropopause'?",
+        "answer": "The boundary between the troposphere and the stratosphere. It is often associated with the jet stream and clear air turbulence (CAT). (AC 00-6B)"
+    },
+    {
+        "id": 358,
+        "category": "Weather",
+        "question": "What is 'Clear Air Turbulence' (CAT)?",
+        "answer": "Turbulence encountered in clear air (no clouds), typically associated with the jet stream or mountain waves. (AC 00-6B)"
+    },
+    {
+        "id": 359,
+        "category": "Weather",
+        "question": "What is the 'Jet Stream'?",
+        "answer": "A narrow band of strong winds (50 knots or more) in the upper atmosphere. (AC 00-6B)"
+    },
+    {
+        "id": 360,
+        "category": "Weather",
+        "question": "Where is the strongest turbulence usually found in relation to the Jet Stream?",
+        "answer": "On the polar side (cold side) of the jet core. (AC 00-6B)"
+    },
+    {
+        "id": 361,
+        "category": "Flight Planning",
+        "question": "What is a 'Compulsory Reporting Point'?",
+        "answer": "A reporting point on a chart that is filled in (solid triangle). You must report crossing it to ATC unless you are in radar contact. (AIM 5-3-2)"
+    },
+    {
+        "id": 362,
+        "category": "Flight Planning",
+        "question": "What is a 'Non-Compulsory Reporting Point'?",
+        "answer": "A reporting point on a chart that is open (outline only). You report it only if requested by ATC. (AIM 5-3-2)"
+    },
+    {
+        "id": 363,
+        "category": "Flight Planning",
+        "question": "What is a 'COP' (Changeover Point)?",
+        "answer": "The point between two VORs where you should change your navigation receiver frequency from the station behind you to the station ahead. It is depicted by a symbol on the airway. If not depicted, change at the halfway point. (AIM 5-3-6)"
+    },
+    {
+        "id": 364,
+        "category": "Flight Planning",
+        "question": "What is the 'Hemispheric Rule' for IFR cruising altitudes?",
+        "answer": "0-179 degrees magnetic track: Odd thousands (below FL290) or FL290, 330, etc. 180-359 degrees magnetic track: Even thousands (below FL290) or FL310, 350, etc. (14 CFR 91.179)"
+    },
+    {
+        "id": 365,
+        "category": "Flight Planning",
+        "question": "Does the Hemispheric Rule apply in controlled airspace?",
+        "answer": "Yes, unless ATC assigns a different altitude. (14 CFR 91.179)"
+    },
+    {
+        "id": 366,
+        "category": "Flight Planning",
+        "question": "What is 'RVSM'?",
+        "answer": "Reduced Vertical Separation Minimum. It allows 1,000 ft vertical separation between FL290 and FL410 (inclusive). Requires special aircraft equipment and pilot training. (AIM 4-6-1)"
+    },
+    {
+        "id": 367,
+        "category": "Flight Planning",
+        "question": "What is the vertical separation above FL410?",
+        "answer": "2,000 feet. (AIM 4-6-1)"
+    },
+    {
+        "id": 368,
+        "category": "Flight Planning",
+        "question": "What is a 'MARSA' operation?",
+        "answer": "Military Authority Assumes Responsibility for Separation of Aircraft. Used for military operations where ATC separation is not applied. (AIM 5-1-1)"
+    },
+    {
+        "id": 369,
+        "category": "Flight Planning",
+        "question": "What is a 'Block Altitude' clearance?",
+        "answer": "An ATC clearance that allows a pilot to operate within a specified vertical range of altitudes. (AIM 4-4-3)"
+    },
+    {
+        "id": 370,
+        "category": "Flight Planning",
+        "question": "What is 'VFR-on-Top' cruising altitude?",
+        "answer": "You must fly at a VFR cruising altitude (Odd/Even + 500 feet) appropriate for your direction of flight. (14 CFR 91.179)"
+    },
+    {
+        "id": 371,
+        "category": "Procedures",
+        "question": "What are the Aircraft Approach Categories based on?",
+        "answer": "1.3 times Vso (stalling speed in landing configuration) at maximum certificated landing weight. (14 CFR 97.3)"
+    },
+    {
+        "id": 372,
+        "category": "Procedures",
+        "question": "What is the speed range for Category A aircraft?",
+        "answer": "Less than 91 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 373,
+        "category": "Procedures",
+        "question": "What is the speed range for Category B aircraft?",
+        "answer": "91 knots or more but less than 121 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 374,
+        "category": "Procedures",
+        "question": "What is the speed range for Category C aircraft?",
+        "answer": "121 knots or more but less than 141 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 375,
+        "category": "Procedures",
+        "question": "What is the speed range for Category D aircraft?",
+        "answer": "141 knots or more but less than 166 knots. (14 CFR 97.3)"
+    },
+    {
+        "id": 376,
+        "category": "Procedures",
+        "question": "What is the speed range for Category E aircraft?",
+        "answer": "166 knots or more. (14 CFR 97.3)"
+    },
+    {
+        "id": 377,
+        "category": "Procedures",
+        "question": "Can you use a lower category minimums if you fly slower?",
+        "answer": "No. You must use the minima corresponding to your aircraft's category or higher. You cannot use a lower category even if you fly slower. (AIM 5-4-7)"
+    },
+    {
+        "id": 378,
+        "category": "Procedures",
+        "question": "Can you use a higher category minimums?",
+        "answer": "Yes. If you are maneuvering at a speed appropriate for a higher category, you should use the higher category minimums. (AIM 5-4-7)"
+    },
+    {
+        "id": 379,
+        "category": "Procedures",
+        "question": "What is 'Inoperative Components' table?",
+        "answer": "A table in the TPP that tells you how much to increase visibility minimums if an approach component (e.g., ALS, MM) is inoperative. (AIM 5-4-20)"
+    },
+    {
+        "id": 380,
+        "category": "Procedures",
+        "question": "What is 'Cold Temperature Correction'?",
+        "answer": "In very cold temperatures, the altimeter indicates higher than the actual altitude. Pilots must correct the MDA/DA and step-down fixes at designated 'Cold Temperature Airports'. (AIM 7-2-3)"
+    },
+    {
+        "id": 381,
+        "category": "Procedures",
+        "question": "When must you apply Cold Temperature Correction?",
+        "answer": "When the airport temperature is at or below the published cold temperature restriction on the approach chart (snowflake symbol). (AIM 7-2-3)"
+    },
+    {
+        "id": 382,
+        "category": "Regulations",
+        "question": "You are flying IFR and your Two-Way Radio fails. You are in VFR conditions. What do you do?",
+        "answer": "Continue the flight under VFR and land as soon as practicable. (14 CFR 91.185)"
+    },
+    {
+        "id": 383,
+        "category": "Regulations",
+        "question": "You are flying IFR and your Two-Way Radio fails. You are in IFR conditions. When can you leave the clearance limit to begin the approach?",
+        "answer": "If the clearance limit is a fix from which an approach begins, commence descent/approach as close as possible to the EFC time (if received) or ETA (if no EFC). (14 CFR 91.185)"
+    },
+    {
+        "id": 384,
+        "category": "Regulations",
+        "question": "What is the 'Malfunction Reports' regulation?",
+        "answer": "14 CFR 91.187. You must report any malfunction of navigational, approach, or communication equipment occurring in flight. (14 CFR 91.187)"
+    },
+    {
+        "id": 385,
+        "category": "Regulations",
+        "question": "What information must be included in a Malfunction Report?",
+        "answer": "Aircraft ID, Equipment affected, Degree to which IFR capability is impaired, Nature/extent of assistance desired. (14 CFR 91.187)"
+    },
+    {
+        "id": 386,
+        "category": "Regulations",
+        "question": "What is 'Category II' ILS?",
+        "answer": "A precision instrument approach with a DH lower than 200 feet but not lower than 100 feet, and RVR not less than 1,200 feet. Requires special authorization/training. (AIM 1-1-9)"
+    },
+    {
+        "id": 387,
+        "category": "Regulations",
+        "question": "What is 'Category III' ILS?",
+        "answer": "A precision instrument approach with a DH lower than 100 feet (or no DH) and RVR less than 1,200 feet (or no RVR). Requires special authorization/training. (AIM 1-1-9)"
+    },
+    {
+        "id": 388,
+        "category": "Regulations",
+        "question": "What is a 'PRM' approach?",
+        "answer": "Precision Runway Monitor. A radar system that allows simultaneous independent ILS approaches to closely spaced parallel runways. Requires specific pilot training and attention to a second radio frequency. (AIM 5-4-16)"
+    },
+    {
+        "id": 389,
+        "category": "Regulations",
+        "question": "What is 'LDA' approach?",
+        "answer": "Localizer Type Directional Aid. Similar to a Localizer but not aligned with the runway (offset > 3 degrees). It may have a glideslope. (AIM 1-1-9)"
+    },
+    {
+        "id": 390,
+        "category": "Regulations",
+        "question": "What is 'SDF' approach?",
+        "answer": "Simplified Directional Facility. Similar to a Localizer but the course width is wider (6 or 12 degrees) and it is not as precise. It does not have a glideslope. (AIM 1-1-10)"
+    },
+    {
+        "id": 391,
+        "category": "Regulations",
+        "question": "What is 'MLS'?",
+        "answer": "Microwave Landing System. A precision landing system that operates in the microwave spectrum. It is largely being replaced by GPS/WAAS. (AIM 1-1-11)"
+    },
+    {
+        "id": 392,
+        "category": "Regulations",
+        "question": "What is the 'TLS'?",
+        "answer": "Transponder Landing System. A ground-based system that tracks the aircraft's transponder and provides ILS-like guidance. (AIM 1-1-13)"
+    },
+    {
+        "id": 393,
+        "category": "Regulations",
+        "question": "What is 'Required Navigation Performance' (RNP) Approach?",
+        "answer": "An approach that requires a specific level of navigation performance (accuracy, integrity, continuity, availability). It allows for curved flight paths (Radius to Fix - RF legs). (AIM 5-4-5)"
+    },
+    {
+        "id": 394,
+        "category": "Regulations",
+        "question": "What is 'Authorization Required' (AR) on an approach plate?",
+        "answer": "Indicates that specific FAA authorization (OpSpecs/MSpecs/LOA) is required to fly the approach (e.g., RNP AR). (AIM 5-4-5)"
+    },
+    {
+        "id": 395,
+        "category": "Regulations",
+        "question": "What is a 'Feeder Route'?",
+        "answer": "A route depicted on instrument approach charts to designate courses for aircraft to proceed from the enroute structure to the IAF. (AIM 5-4-5)"
+    },
+    {
+        "id": 396,
+        "category": "Regulations",
+        "question": "What is a 'Terminal Arrival Area' (TAA)?",
+        "answer": "A designated area for RNAV approaches that replaces the MSA. It provides a transition from the enroute structure to the approach procedure. (AIM 5-4-5)"
+    },
+    {
+        "id": 397,
+        "category": "Regulations",
+        "question": "What are the three sectors of a TAA?",
+        "answer": "Straight-in, Left Base, and Right Base. (AIM 5-4-5)"
+    },
+    {
+        "id": 398,
+        "category": "Regulations",
+        "question": "What is the 'MSA'?",
+        "answer": "Minimum Safe Altitude. An altitude depicted on approach charts that provides 1,000 feet of obstacle clearance within a 25 NM radius of the navigation facility. It is for emergency use only and does not guarantee navigation coverage. (AIM 5-4-5)"
+    },
+    {
+        "id": 399,
+        "category": "Regulations",
+        "question": "What is 'TCH'?",
+        "answer": "Threshold Crossing Height. The height of the glide slope above the runway threshold. (Chart User's Guide)"
+    },
+    {
+        "id": 400,
+        "category": "Regulations",
+        "question": "What is 'TDZE'?",
+        "answer": "Touchdown Zone Elevation. The highest elevation in the first 3,000 feet of the landing surface. (Chart User's Guide)"
+    },
+    {
+        "id": 401,
+        "category": "Regulations",
+        "question": "What is the '6-6-HIT' rule for IFR currency?",
+        "answer": "Within the preceding 6 calendar months, you must have performed: 6 Instrument Approaches, Holding procedures and tasks, and Intercepting and Tracking courses through the use of navigational electronic systems. (14 CFR 61.57)"
+    },
+    {
+        "id": 402,
+        "category": "Regulations",
+        "question": "Can you use an Aviation Training Device (ATD) for IFR currency?",
+        "answer": "Yes. You can perform the required approaches, holding, and tracking in an approved ATD, FTD, or Flight Simulator. (14 CFR 61.57)"
+    },
+    {
+        "id": 403,
+        "category": "Regulations",
+        "question": "If your IFR currency expires (after 6 months), what is the 'Grace Period'?",
+        "answer": "You have an additional 6 months to regain currency by flying the requirements with a Safety Pilot (in VFR conditions) or an Instructor/Examiner. (14 CFR 61.57)"
+    },
+    {
+        "id": 404,
+        "category": "Regulations",
+        "question": "What happens if you are not current after 12 months (6 months + 6 months grace)?",
+        "answer": "You must pass an Instrument Proficiency Check (IPC) given by a CFII, Examiner, or approved person. (14 CFR 61.57)"
+    },
+    {
+        "id": 405,
+        "category": "Regulations",
+        "question": "What are the requirements for a Safety Pilot?",
+        "answer": "Must possess at least a Private Pilot certificate with category and class ratings appropriate to the aircraft being flown. Must have adequate vision forward and to each side. (14 CFR 91.109)"
+    },
+    {
+        "id": 406,
+        "category": "Regulations",
+        "question": "Does the Safety Pilot need an Instrument Rating?",
+        "answer": "No, unless the flight is conducted on an IFR flight plan in IMC. If in VFR conditions (simulated instrument), they only need to be a Private Pilot. (14 CFR 91.109)"
+    },
+    {
+        "id": 407,
+        "category": "Regulations",
+        "question": "When can you log 'Instrument Time'?",
+        "answer": "Only when you operate the aircraft solely by reference to instruments under actual or simulated instrument flight conditions. (14 CFR 61.51)"
+    },
+    {
+        "id": 408,
+        "category": "Regulations",
+        "question": "Can an Instructor log instrument time while instructing?",
+        "answer": "Yes, if they are conducting instrument flight instruction in actual instrument flight conditions. (14 CFR 61.51)"
+    },
+    {
+        "id": 409,
+        "category": "Regulations",
+        "question": "What is the difference between 'Actual Instrument Conditions' and 'Simulated Instrument Conditions'?",
+        "answer": "Actual: Flight in IMC (clouds, fog, etc.). Simulated: Flight under a view-limiting device (hood/foggles) in VFR conditions. (14 CFR 61.51)"
+    },
+    {
+        "id": 410,
+        "category": "Regulations",
+        "question": "What is 'Part 91 Subpart F'?",
+        "answer": "Large and Turbine-Powered Multiengine Airplanes and Fractional Ownership Program Aircraft. It contains additional equipment and operating rules for these aircraft. (14 CFR 91 Subpart F)"
+    },
+    {
+        "id": 411,
+        "category": "Regulations",
+        "question": "Do you need a takeoff alternate for Part 91 operations?",
+        "answer": "No, it is not legally required for Part 91, but it is good operating practice. It IS required for Part 121/135. (14 CFR 91)"
+    },
+    {
+        "id": 412,
+        "category": "Regulations",
+        "question": "What is the 'Standard Takeoff Minimums' for Part 91?",
+        "answer": "0/0 (Zero ceiling, Zero visibility). However, it is unsafe and not recommended. Commercial operators have specific minimums (usually 1 SM or 5000 RVR for 1-2 engines). (14 CFR 91.175)"
+    },
+    {
+        "id": 413,
+        "category": "Regulations",
+        "question": "What is a 'SODA'?",
+        "answer": "Statement of Demonstrated Ability. Issued to a pilot with a disqualifying medical condition who proves they can operate safely (e.g., defective color vision). (14 CFR 67.401)"
+    },
+    {
+        "id": 414,
+        "category": "Regulations",
+        "question": "What is a 'Special Issuance' medical?",
+        "answer": "An authorization for a medical certificate when the applicant does not meet the standards, but the Federal Air Surgeon determines the duties can be performed without endangering safety. It is time-limited. (14 CFR 67.401)"
+    },
+    {
+        "id": 415,
+        "category": "Regulations",
+        "question": "What is 'BasicMed'?",
+        "answer": "An alternative to a 3rd Class Medical. Requires a valid US driver's license, a medical education course every 24 months, and a physical exam by a state-licensed physician every 48 months. (14 CFR 68)"
+    },
+    {
+        "id": 416,
+        "category": "Regulations",
+        "question": "What are the limitations of BasicMed?",
+        "answer": "Max 6 occupants, max 6,000 lbs takeoff weight, max 250 KIAS, max 18,000 ft MSL, not for compensation or hire. (14 CFR 61.113)"
+    },
+    {
+        "id": 417,
+        "category": "Instructor",
+        "question": "What are the 'Laws of Learning' (REEPIR)?",
+        "answer": "Readiness, Exercise, Effect, Primacy, Intensity, Recency. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 418,
+        "category": "Instructor",
+        "question": "What is the 'Law of Primacy'?",
+        "answer": "Things learned first create a strong impression and are difficult to unlearn. Therefore, the instructor must teach correctly the first time. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 419,
+        "category": "Instructor",
+        "question": "What are the 'Defense Mechanisms' (DR DR FCPR)?",
+        "answer": "Denial, Repression, Displacement, Rationalization, Fantasy, Compensation, Projection, Reaction Formation. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 420,
+        "category": "Instructor",
+        "question": "What is 'Projection'?",
+        "answer": "Relegating blame for one's own shortcomings to others or attributing one's motives to others. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 421,
+        "category": "Instructor",
+        "question": "What is the 'Demonstration-Performance' method?",
+        "answer": "Explanation, Demonstration, Student Performance, Instructor Supervision, Evaluation. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 422,
+        "category": "Instructor",
+        "question": "What is 'Integrated Flight Instruction'?",
+        "answer": "Teaching flight maneuvers by reference to both outside visual references and flight instruments from the very beginning of training. (Aviation Instructor's Handbook)"
+    },
+    {
+        "id": 423,
+        "category": "Scenarios",
+        "question": "You are on an IFR flight plan and encounter unforecast severe icing. What do you do?",
+        "answer": "Immediately request a change of altitude or route to exit the icing conditions. Declare an emergency if necessary. Turn on all anti-ice/de-ice equipment. (AIM 7-1-21)"
+    },
+    {
+        "id": 424,
+        "category": "Scenarios",
+        "question": "You are flying an ILS approach and the Glide Slope fails. What do you do?",
+        "answer": "Revert to the Localizer-only minimums (MDA) and execute a non-precision approach. Notify ATC. (AIM 1-1-9)"
+    },
+    {
+        "id": 425,
+        "category": "Scenarios",
+        "question": "You are flying a VOR approach and the VOR flag appears. What do you do?",
+        "answer": "Immediately execute the missed approach. The signal is unreliable. (AIM 1-1-3)"
+    },
+    {
+        "id": 426,
+        "category": "Scenarios",
+        "question": "You are at the MDA on a non-precision approach and see the approach lights but not the runway. Can you descend?",
+        "answer": "Yes, you can descend to 100 feet above the TDZE using the approach lights as a reference. You cannot go below 100 feet unless you see the red terminating bars or side row bars (ALSF-1/2) or the runway environment. (14 CFR 91.175)"
+    },
+    {
+        "id": 427,
+        "category": "Scenarios",
+        "question": "You are circling to land and lose sight of the runway. What do you do?",
+        "answer": "Make an initial climbing turn toward the landing runway and continue the turn until established on the missed approach course. (AIM 5-4-20)"
+    },
+    {
+        "id": 428,
+        "category": "Scenarios",
+        "question": "ATC clears you for the 'Option'. What does this mean?",
+        "answer": "You may perform a touch-and-go, low approach, missed approach, stop-and-go, or full stop landing. (AIM 4-3-22)"
+    },
+    {
+        "id": 429,
+        "category": "Scenarios",
+        "question": "You are cleared for a visual approach behind a heavy jet. What is your wake turbulence avoidance strategy?",
+        "answer": "Stay above the jet's flight path and land beyond its touchdown point. (AIM 7-3-6)"
+    },
+    {
+        "id": 430,
+        "category": "Scenarios",
+        "question": "You experience a complete electrical failure in IMC. What instruments do you have left?",
+        "answer": "Vacuum-driven instruments (Attitude Indicator, Heading Indicator - if vacuum), Pitot-Static instruments (Airspeed, Altimeter, VSI), and Magnetic Compass. Turn Coordinator is usually electric and will fail. (PHAK)"
+    },
+    {
+        "id": 431,
+        "category": "Systems",
+        "question": "What is the difference between 'Anti-Icing' and 'De-Icing'?",
+        "answer": "Anti-icing prevents ice from forming (e.g., heated pitot, weeping wing). De-icing removes ice after it has formed (e.g., boots). (PHAK)"
+    },
+    {
+        "id": 432,
+        "category": "Systems",
+        "question": "How does a 'Pneumatic De-icing Boot' work?",
+        "answer": "It inflates with air to crack the ice, allowing the airstream to blow it away. (PHAK)"
+    },
+    {
+        "id": 433,
+        "category": "Systems",
+        "question": "What is 'Weeping Wing' (TKS)?",
+        "answer": "A system that exudes a glycol-based fluid through microscopic holes in the wing leading edge to prevent ice adhesion. (PHAK)"
+    },
+    {
+        "id": 434,
+        "category": "Systems",
+        "question": "What is a 'Rate-Based' Autopilot?",
+        "answer": "It uses the Turn Coordinator (gyro) to determine bank angle and rate of turn. (PHAK)"
+    },
+    {
+        "id": 435,
+        "category": "Systems",
+        "question": "What is a 'Position-Based' (Attitude-Based) Autopilot?",
+        "answer": "It uses the Attitude Indicator (gyro) to determine pitch and bank attitude. (PHAK)"
+    },
+    {
+        "id": 436,
+        "category": "Systems",
+        "question": "What is 'Flight Director' (FD)?",
+        "answer": "A computer that calculates the required attitude to follow the selected flight path and displays it as command bars on the attitude indicator. The pilot (or autopilot) flies the aircraft to match the command bars. (PHAK)"
+    },
+    {
+        "id": 437,
+        "category": "Systems",
+        "question": "What is 'GPWS'?",
+        "answer": "Ground Proximity Warning System. It alerts the pilot of hazardous flight conditions like excessive sink rate, terrain closure, or descent below glideslope. (AIM 5-4-5)"
+    },
+    {
+        "id": 438,
+        "category": "Systems",
+        "question": "What is 'TAWS'?",
+        "answer": "Terrain Awareness and Warning System. An enhanced GPWS that uses GPS position and a terrain database to provide forward-looking terrain avoidance. (AIM 5-4-5)"
+    },
+    {
+        "id": 439,
+        "category": "Systems",
+        "question": "What is 'TCAS'?",
+        "answer": "Traffic Alert and Collision Avoidance System. It interrogates other transponders to determine range, bearing, and altitude of traffic and provides alerts (TA/RA). (AIM 4-5-1)"
+    },
+    {
+        "id": 440,
+        "category": "Systems",
+        "question": "What is 'ADS-B'?",
+        "answer": "Automatic Dependent Surveillance-Broadcast. Aircraft broadcast their GPS position, altitude, and velocity to ground stations and other aircraft. (AIM 4-5-7)"
+    },
+    {
+        "id": 441,
+        "category": "Systems",
+        "question": "What is 'ADS-B In'?",
+        "answer": "The ability to receive ADS-B data from other aircraft (traffic) and ground stations (weather/TIS-B). (AIM 4-5-7)"
+    },
+    {
+        "id": 442,
+        "category": "Systems",
+        "question": "What is 'ADS-B Out'?",
+        "answer": "The broadcasting of the aircraft's position data. Required in most controlled airspace since 2020. (14 CFR 91.225)"
+    },
+    {
+        "id": 443,
+        "category": "Systems",
+        "question": "What is a 'Magnetometer'?",
+        "answer": "A device that measures the earth's magnetic field to provide heading information to the AHRS. It is a digital compass. (PHAK)"
+    },
+    {
+        "id": 444,
+        "category": "Systems",
+        "question": "What is 'ADC'?",
+        "answer": "Air Data Computer. It receives inputs from the pitot-static system and temperature probe to calculate airspeed, altitude, VSI, and TAS. (PHAK)"
+    },
+    {
+        "id": 445,
+        "category": "Systems",
+        "question": "What is 'AHRS'?",
+        "answer": "Attitude and Heading Reference System. It uses accelerometers, tilt sensors, and rate sensors (solid-state gyros) to determine attitude and heading. (PHAK)"
+    },
+    {
+        "id": 446,
+        "category": "Systems",
+        "question": "What happens if the ADC fails?",
+        "answer": "Loss of Airspeed, Altimeter, VSI, and TAS information on the PFD. (PHAK)"
+    },
+    {
+        "id": 447,
+        "category": "Systems",
+        "question": "What happens if the AHRS fails?",
+        "answer": "Loss of Attitude and Heading information on the PFD. (PHAK)"
+    },
+    {
+        "id": 448,
+        "category": "Systems",
+        "question": "What is 'Reversionary Mode' on a G1000?",
+        "answer": "If one display (PFD or MFD) fails, the remaining display combines essential flight instruments and engine data. (PHAK)"
+    },
+    {
+        "id": 449,
+        "category": "Systems",
+        "question": "What is a 'Hot Prop'?",
+        "answer": "A propeller with electric heating elements on the blades to prevent ice accumulation. (PHAK)"
+    },
+    {
+        "id": 450,
+        "category": "Systems",
+        "question": "What is a 'Wet Compass' error 'ANDS'?",
+        "answer": "Accelerate North, Decelerate South. On East/West headings, acceleration shows a turn to the North, deceleration shows a turn to the South. (PHAK)"
+    },
+    {
+        "id": 451,
+        "category": "Checkride Prep",
+        "question": "What are the three fundamental skills of instrument flying?",
+        "answer": "Cross-check, Instrument Interpretation, and Aircraft Control. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 452,
+        "category": "Checkride Prep",
+        "question": "What are the three common errors in instrument scanning?",
+        "answer": "Fixation, Omission, and Emphasis. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 453,
+        "category": "Checkride Prep",
+        "question": "What is 'Primary and Supporting' method?",
+        "answer": "A method of instrument flying where the pilot classifies instruments as Primary (provides the most pertinent information) or Supporting (backs up the primary) for a given maneuver. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 454,
+        "category": "Checkride Prep",
+        "question": "What is 'Control and Performance' method?",
+        "answer": "A method where the pilot establishes an attitude and power setting (Control) that will result in the desired performance, and verifies it with the performance instruments. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 455,
+        "category": "Checkride Prep",
+        "question": "What is the 'Standard Rate Turn'?",
+        "answer": "3 degrees per second. A 360 degree turn takes 2 minutes. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 456,
+        "category": "Checkride Prep",
+        "question": "How do you calculate the bank angle for a Standard Rate Turn?",
+        "answer": "Approximate formula: (TAS / 10) + 5. Example: 100 knots / 10 = 10 + 5 = 15 degrees bank. (Instrument Flying Handbook)"
+    },
+    {
+        "id": 457,
+        "category": "Checkride Prep",
+        "question": "When must you execute a Missed Approach?",
+        "answer": "1. Arrival at MAP/DA without visual references. 2. Safe landing not possible. 3. Instructed by ATC. 4. Loss of visual references while circling. (14 CFR 91.175)"
+    },
+    {
+        "id": 458,
+        "category": "Checkride Prep",
+        "question": "What is the 'Visual Descent Point' (VDP) rule of thumb?",
+        "answer": "HAT (Height Above Touchdown) / 300 = Distance in NM from threshold. Example: 600 ft HAT / 300 = 2 NM. (Instrument Procedures Handbook)"
+    },
+    {
+        "id": 459,
+        "category": "Checkride Prep",
+        "question": "What is the '3-to-1' descent rule?",
+        "answer": "300 feet per NM. To lose altitude efficiently, multiply distance to go by 3 (e.g., 10 NM x 3 = 3000 ft to lose). (Instrument Procedures Handbook)"
+    },
+    {
+        "id": 460,
+        "category": "Checkride Prep",
+        "question": "What is the 'Rate of Descent' formula for a 3-degree glideslope?",
+        "answer": "Groundspeed x 5. Example: 90 knots x 5 = 450 fpm. (Instrument Procedures Handbook)"
+    },
+    {
+        "id": 461,
+        "category": "Checkride Prep",
+        "question": "What is the maximum airspeed for a Procedure Turn?",
+        "answer": "200 KIAS. (AIM 5-4-9)"
+    },
+    {
+        "id": 462,
+        "category": "Checkride Prep",
+        "question": "When is a Procedure Turn NOT required? (SHARPTT)",
+        "answer": "Straight-in approach, Holding in lieu of PT, Arc (DME), Radar vectors, NoPT depicted, Teardrop course reversal, Timed approach. (14 CFR 91.175)"
+    },
+    {
+        "id": 463,
+        "category": "Checkride Prep",
+        "question": "What is the difference between 'DA' and 'DH'?",
+        "answer": "DA (Decision Altitude) is MSL. DH (Decision Height) is AGL (above threshold). DA is used for Cat I ILS. DH is used for Cat II/III. (AIM 1-1-9)"
+    },
+    {
+        "id": 464,
+        "category": "Checkride Prep",
+        "question": "What is the difference between 'MDA' and 'DA'?",
+        "answer": "MDA is a minimum altitude you cannot go below until visual. DA is a point where you must decide to land or go missed; you may dip slightly below DA during the missed approach initiation. (AIM 5-4-5)"
+    },
+    {
+        "id": 465,
+        "category": "Checkride Prep",
+        "question": "What is 'RVR'?",
+        "answer": "Runway Visual Range. An instrumentally derived value representing the horizontal distance a pilot will see down the runway. (AIM 7-1-15)"
+    },
+    {
+        "id": 466,
+        "category": "Checkride Prep",
+        "question": "If RVR is reported as 2400, what is that in Statute Miles?",
+        "answer": "Approximately 1/2 SM. (AIM 7-1-15)"
+    },
+    {
+        "id": 467,
+        "category": "Checkride Prep",
+        "question": "If RVR is reported as 1600, what is that in Statute Miles?",
+        "answer": "Approximately 1/4 SM. (AIM 7-1-15)"
+    },
+    {
+        "id": 468,
+        "category": "Checkride Prep",
+        "question": "If RVR is reported as 5000, what is that in Statute Miles?",
+        "answer": "Approximately 1 SM. (AIM 7-1-15)"
+    },
+    {
+        "id": 469,
+        "category": "Checkride Prep",
+        "question": "What is 'Prevailing Visibility'?",
+        "answer": "The greatest horizontal visibility equaled or exceeded throughout at least half the horizon circle. (AIM 7-1-15)"
+    },
+    {
+        "id": 470,
+        "category": "Checkride Prep",
+        "question": "What is 'Flight Visibility'?",
+        "answer": "The average forward horizontal distance, from the cockpit of an aircraft in flight, at which prominent unlighted objects may be seen and identified by day and prominent lighted objects may be seen and identified by night. (14 CFR 1.1)"
+    },
+    {
+        "id": 471,
+        "category": "Obscure Regs",
+        "question": "Can you fly IFR with a 'BasicMed' pilot as your safety pilot?",
+        "answer": "Yes, provided they meet the requirements of 91.109 (Private Pilot, Category/Class). They act as a required crewmember. (14 CFR 61.113)"
+    },
+    {
+        "id": 472,
+        "category": "Obscure Regs",
+        "question": "You are flying a GPS approach. The GPS database expires in flight. Can you continue?",
+        "answer": "No, you cannot fly the approach with an expired database. However, some units allow enroute navigation with an expired database if the waypoints are verified. Check the AFM supplement. (AIM 1-1-17)"
+    },
+    {
+        "id": 473,
+        "category": "Obscure Regs",
+        "question": "Can you use a handheld GPS for IFR navigation?",
+        "answer": "No. Handheld GPS units are not TSO-approved for IFR navigation. They can be used for situational awareness only. (AIM 1-1-17)"
+    },
+    {
+        "id": 474,
+        "category": "Obscure Regs",
+        "question": "What is the '30-day VOR check' error tolerance?",
+        "answer": "+/- 4 degrees for VOT, Ground, and Dual checks. +/- 6 degrees for Airborne checks. (14 CFR 91.171)"
+    },
+    {
+        "id": 475,
+        "category": "Obscure Regs",
+        "question": "What must you record for a VOR check?",
+        "answer": "Date, Place, Bearing Error, and Signature. (14 CFR 91.171)"
+    },
+    {
+        "id": 476,
+        "category": "Obscure Regs",
+        "question": "Can you use a VOR check performed by a repair station?",
+        "answer": "Yes. (14 CFR 91.171)"
+    },
+    {
+        "id": 477,
+        "category": "Obscure Regs",
+        "question": "You are flying an approach and the RAIM warning appears 1 mile outside the FAF. What do you do?",
+        "answer": "Execute the missed approach immediately. Do not descend to MDA/DA. (AIM 1-1-17)"
+    },
+    {
+        "id": 478,
+        "category": "Obscure Regs",
+        "question": "You are flying an approach and the RAIM warning appears AFTER the FAF. What do you do?",
+        "answer": "Execute the missed approach immediately. Climb to the missed approach altitude. (AIM 1-1-17)"
+    },
+    {
+        "id": 479,
+        "category": "Obscure Regs",
+        "question": "What is 'Baro-VNAV'?",
+        "answer": "A navigation system that presents computed vertical guidance to the pilot based on barometric altitude. It is used for LNAV/VNAV approaches. (AIM 1-1-18)"
+    },
+    {
+        "id": 480,
+        "category": "Obscure Regs",
+        "question": "What are the temperature limitations for Baro-VNAV?",
+        "answer": "It cannot be used when the temperature is below the minimum or above the maximum temperature published on the approach chart, unless compensated. (AIM 1-1-18)"
+    },
+    {
+        "id": 481,
+        "category": "Final Review",
+        "question": "What is the 'Critical Engine'?",
+        "answer": "The engine whose failure would most adversely affect the performance or handling qualities of an aircraft. (14 CFR 1.1)"
+    },
+    {
+        "id": 482,
+        "category": "Final Review",
+        "question": "What is 'Vmc'?",
+        "answer": "Minimum Control Speed with the Critical Engine Inoperative. (14 CFR 1.1)"
+    },
+    {
+        "id": 483,
+        "category": "Final Review",
+        "question": "What is 'Vyse'?",
+        "answer": "Best Rate of Climb Speed with One Engine Inoperative (Blue Line). (14 CFR 1.1)"
+    },
+    {
+        "id": 484,
+        "category": "Final Review",
+        "question": "What is 'Accelerate-Stop Distance'?",
+        "answer": "The distance required to accelerate to V1, experience an engine failure, and bring the airplane to a complete stop. (14 CFR 1.1)"
+    },
+    {
+        "id": 485,
+        "category": "Final Review",
+        "question": "What is 'Accelerate-Go Distance'?",
+        "answer": "The distance required to accelerate to V1, experience an engine failure, and continue the takeoff to a height of 35 feet. (14 CFR 1.1)"
+    },
+    {
+        "id": 486,
+        "category": "Final Review",
+        "question": "What is 'Balanced Field Length'?",
+        "answer": "The runway length where Accelerate-Stop Distance equals Accelerate-Go Distance. (PHAK)"
+    },
+    {
+        "id": 487,
+        "category": "Final Review",
+        "question": "What is 'Hydroplaning'?",
+        "answer": "When the tires are lifted off the runway surface by a thin film of water, causing a loss of braking and directional control. (PHAK)"
+    },
+    {
+        "id": 488,
+        "category": "Final Review",
+        "question": "What are the three types of Hydroplaning?",
+        "answer": "Dynamic (standing water), Viscous (smooth surface/oil), Reverted Rubber (locked brakes/steam). (PHAK)"
+    },
+    {
+        "id": 489,
+        "category": "Final Review",
+        "question": "What is the best way to prevent Hydroplaning?",
+        "answer": "Land at a slower speed, use aerodynamic braking, and avoid locking the brakes (use anti-skid if available). (PHAK)"
+    },
+    {
+        "id": 490,
+        "category": "Final Review",
+        "question": "What is 'Wind Shear'?",
+        "answer": "A sudden, drastic change in wind speed and/or direction over a very small area. (AC 00-6B)"
+    },
+    {
+        "id": 491,
+        "category": "Final Review",
+        "question": "What is a 'Microburst'?",
+        "answer": "A small-scale, intense downdraft (less than 2.5 miles wide) that spreads outward in all directions from the downdraft center. It can cause 6,000 fpm downdrafts and 90 knots wind shear. (AC 00-6B)"
+    },
+    {
+        "id": 492,
+        "category": "Final Review",
+        "question": "How long does a Microburst last?",
+        "answer": "Typically 5 to 15 minutes. (AC 00-6B)"
+    },
+    {
+        "id": 493,
+        "category": "Final Review",
+        "question": "What is 'LLWAS'?",
+        "answer": "Low Level Wind Shear Alert System. A system of anemometers around an airport to detect wind shear. (AIM 7-1-26)"
+    },
+    {
+        "id": 494,
+        "category": "Final Review",
+        "question": "What is 'TDWR'?",
+        "answer": "Terminal Doppler Weather Radar. A radar system specifically designed to detect microbursts and wind shear near airports. (AIM 7-1-26)"
+    },
+    {
+        "id": 495,
+        "category": "Final Review",
+        "question": "What is 'WARP'?",
+        "answer": "Weather and Radar Processor. Used by ARTCCs to display weather data on controller screens. (AIM 7-1-26)"
+    },
+    {
+        "id": 496,
+        "category": "Final Review",
+        "question": "What is 'FIS-B'?",
+        "answer": "Flight Information Service-Broadcast. Provides weather and aeronautical information to the cockpit via ADS-B In (978 MHz UAT). (AIM 7-1-11)"
+    },
+    {
+        "id": 497,
+        "category": "Final Review",
+        "question": "What is 'TIS-B'?",
+        "answer": "Traffic Information Service-Broadcast. Provides traffic information to the cockpit via ADS-B. (AIM 4-5-8)"
+    },
+    {
+        "id": 498,
+        "category": "Final Review",
+        "question": "What is 'PDC'?",
+        "answer": "Pre-Departure Clearance. An automated clearance delivery system that sends the IFR clearance to the pilot via datalink (ACARS) or gate printer. (AIM 5-2-2)"
+    },
+    {
+        "id": 499,
+        "category": "Final Review",
+        "question": "What is 'CPDLC'?",
+        "answer": "Controller Pilot Data Link Communications. A method of communication between controller and pilot using text messages. (AIM 5-2-2)"
+    },
+    {
+        "id": 500,
+        "category": "Final Review",
+        "question": "Congratulations! You have completed 500 flashcards. What is the most important rule of instrument flying?",
+        "answer": "Trust your instruments! (Instrument Flying Handbook)"
+    }
+]
